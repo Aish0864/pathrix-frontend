@@ -14,9 +14,10 @@ export default function LearnerLayout() {
     .slice(0, 2);
   const studentId = localStorage.getItem("student_id");
   const [mastery, setMastery] = useState(0);
-  const [level, setLevel] = useState(
-    localStorage.getItem("diagnostic_level") || "Beginner",
-  );
+  // const [level, setLevel] = useState(
+  //   localStorage.getItem("diagnostic_level") || "Beginner",
+  // );
+  const [level, setLevel] = useState("...");
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
