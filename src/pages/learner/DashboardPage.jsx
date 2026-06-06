@@ -8,8 +8,14 @@ export default function DashboardPage() {
   const studentId = localStorage.getItem("student_id");
   const firstName = name.split(" ")[0];
 
+  // const [rec, setRec] = useState(null);
+  // const [loading, setLoading] = useState(true);
   const [rec, setRec] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [masteredCount, setMasteredCount] = useState(0);
+  const [level, setLevel] = useState(
+    localStorage.getItem("diagnostic_level") || "Beginner",
+  );
   const [sessionId, setSessionId] = useState(
     localStorage.getItem("session_id"),
   );
@@ -30,11 +36,22 @@ export default function DashboardPage() {
           "cognitive_load",
           recRes.data.cognitive_load || "low",
         );
+        // const masteryRes = await getOverallMastery(studentId);
+        // const pct = masteryRes.data.overall_mastery || 0;
+        // const lvl =
+        //   pct >= 70 ? "Advanced" : pct >= 40 ? "Intermediate" : "Beginner";
+        // localStorage.setItem("diagnostic_level", lvl);
         const masteryRes = await getOverallMastery(studentId);
         const pct = masteryRes.data.overall_mastery || 0;
         const lvl =
           pct >= 70 ? "Advanced" : pct >= 40 ? "Intermediate" : "Beginner";
         localStorage.setItem("diagnostic_level", lvl);
+        setLevel(lvl);
+        const studentMasteryRes = await fetch(
+          `https://pathrix-api.onrender.com/student_mastery/${studentId}`,
+        );
+        const studentMasteryData = await studentMasteryRes.json();
+        setMasteredCount(studentMasteryData.mastered_concepts?.length || 0);
       } catch (e) {
         console.error(e);
       } finally {
@@ -79,13 +96,13 @@ export default function DashboardPage() {
       <div style={s.statRow}>
         <StatCard
           label="Current Level"
-          value={localStorage.getItem("diagnostic_level") || "Beginner"}
+          value={level}
           accent="#1D9E75"
           bg="#E1F5EE"
         />
         <StatCard
           label="Concepts Studied"
-          value="0"
+          value={masteredCount}
           accent="#378ADD"
           bg="#E6F1FB"
         />
