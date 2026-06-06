@@ -13,7 +13,8 @@ export default function AdminLayout() {
   useEffect(() => {
     // ← add this
     axios
-      .get("http://127.0.0.1:8000/admin/students")
+      // .get("http://127.0.0.1:8000/admin/students")
+      .get("https://pathrix-api.onrender.com/admin/students")
       .then((res) => setStudents(res.data.students || []))
       .catch(() => {});
   }, []);

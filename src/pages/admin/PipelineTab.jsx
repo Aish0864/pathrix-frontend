@@ -16,7 +16,8 @@ export default function PipelineTab({ students }) {
     if (!selectedStudent) return;
     setLoadingRewards(true);
     axios
-      .get(`http://127.0.0.1:8000/rewards/${selectedStudent}`)
+      // .get(`http://127.0.0.1:8000/rewards/${selectedStudent}`)
+      .get(`https://pathrix-api.onrender.com/rewards/${selectedStudent}`)
       .then((res) => setRewards(res.data))
       .catch(() => setRewards([]))
       .finally(() => setLoadingRewards(false));
