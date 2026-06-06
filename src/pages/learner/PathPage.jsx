@@ -203,7 +203,7 @@ export default function PathPage() {
                       ...(status === "upcoming" ? s.cardUpcoming : {}),
                     }}
                     onClick={() => {
-                      if (status === "current") {
+                      if (status === "current" || status === "mastered") {
                         localStorage.setItem(
                           "current_concept",
                           `${c.name} L${c.level}`,
@@ -339,7 +339,11 @@ const s = {
     background: "#fff",
     fontSize: "0.88rem",
   },
-  cardMastered: { background: "#F0FAF5", border: "1px solid #9FE1CB" },
+  cardMastered: {
+    background: "#F0FAF5",
+    border: "1px solid #9FE1CB",
+    cursor: "pointer",
+  },
   cardCurrent: {
     background: "#E6F1FB",
     border: "1px solid #378ADD",
