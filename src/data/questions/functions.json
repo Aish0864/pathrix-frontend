@@ -1,0 +1,138 @@
+{
+  "easy": [
+    {
+      "id": "FN_E_01",
+      "q": "Which keyword defines function?",
+      "opts": ["func", "def", "function", "lambda"],
+      "ans": 1
+    },
+    {
+      "id": "FN_E_02",
+      "q": "Function returns using:",
+      "opts": ["return", "print", "output", "yield"],
+      "ans": 0
+    },
+    {
+      "id": "FN_E_03",
+      "q": "Functions are:",
+      "opts": ["reusable code", "variables", "loops", "operators"],
+      "ans": 0
+    },
+    {
+      "id": "FN_E_04",
+      "q": "How to call function?",
+      "opts": ["f", "f()", "call f", "run f"],
+      "ans": 1
+    },
+    {
+      "id": "FN_E_05",
+      "q": "Default return if none?",
+      "opts": ["0", "None", "Error", "''"],
+      "ans": 1
+    },
+    {
+      "id": "FN_E_06",
+      "q": "Function parameters are:",
+      "opts": ["inputs", "outputs", "loops", "conditions"],
+      "ans": 0
+    },
+    {
+      "id": "FN_E_07",
+      "q": "Function improves:",
+      "opts": ["readability", "speed always", "memory always", "none"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "FN_M_01",
+      "q": "What is output?\ndef f(): return 5\nprint(f())",
+      "opts": ["5", "None", "Error", "f"],
+      "ans": 0
+    },
+    {
+      "id": "FN_M_02",
+      "q": "What is output?\ndef f(x): return x*2\nprint(f(3))",
+      "opts": ["6", "3", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "FN_M_03",
+      "q": "What is output?\ndef f(x): print(x)\nf(2)",
+      "opts": ["2", "None", "Error", "f"],
+      "ans": 0
+    },
+    {
+      "id": "FN_M_04",
+      "q": "What is output?\ndef f(): pass\nprint(f())",
+      "opts": ["None", "0", "Error", "pass"],
+      "ans": 0
+    },
+    {
+      "id": "FN_M_05",
+      "q": "Which is valid?",
+      "opts": ["def f():", "function f()", "f def()", "define f"],
+      "ans": 0
+    },
+    {
+      "id": "FN_M_06",
+      "q": "Arguments are:",
+      "opts": ["values passed", "return values", "loops", "conditions"],
+      "ans": 0
+    },
+    {
+      "id": "FN_M_07",
+      "q": "What is output?\ndef f(x,y): return x+y\nprint(f(2,3))",
+      "opts": ["5", "23", "Error", "None"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "FN_H_01",
+      "q": "What is output?\ndef f(x=[]): x.append(1); return x\nprint(f()); print(f())",
+      "opts": ["[1] [1,1]", "[1] [1]", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "FN_H_02",
+      "q": "What is output?\ndef f(x): return x\nprint(type(f))",
+      "opts": ["function", "<class 'function'>", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "FN_H_03",
+      "q": "What is output?\ndef f(x): return x*2\nprint(f(f(2)))",
+      "opts": ["8", "4", "2", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "FN_H_04",
+      "q": "Functions are:",
+      "opts": [
+        "first-class objects",
+        "only procedures",
+        "only methods",
+        "only static"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FN_H_05",
+      "q": "What is output?\ndef f(x): return\nprint(f(2))",
+      "opts": ["None", "2", "Error", "0"],
+      "ans": 0
+    },
+    {
+      "id": "FN_H_06",
+      "q": "Which is true?",
+      "opts": [
+        "functions cannot return multiple",
+        "functions can return multiple",
+        "functions must return",
+        "functions no return"
+      ],
+      "ans": 1
+    }
+  ]
+}

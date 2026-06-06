@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "SC_E_01",
+      "q": "Scope refers to:",
+      "opts": [
+        "variable visibility",
+        "loop",
+        "function",
+        "class"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_E_02",
+      "q": "Global variables are defined:",
+      "opts": [
+        "inside function",
+        "outside function",
+        "inside loop",
+        "inside class"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "SC_E_03",
+      "q": "Local variables exist in:",
+      "opts": [
+        "entire program",
+        "function",
+        "class",
+        "loop"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "SC_E_04",
+      "q": "Which keyword for global?",
+      "opts": [
+        "global",
+        "local",
+        "var",
+        "def"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_E_05",
+      "q": "Local variables accessible:",
+      "opts": [
+        "everywhere",
+        "only function",
+        "only class",
+        "none"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "SC_E_06",
+      "q": "Global variables accessible:",
+      "opts": [
+        "everywhere",
+        "only function",
+        "only loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_E_07",
+      "q": "Scope defines:",
+      "opts": [
+        "lifetime",
+        "visibility",
+        "type",
+        "value"
+      ],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "SC_M_01",
+      "q": "What is output?\nx=5\ndef f(): print(x)\nf()",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_M_02",
+      "q": "What is output?\ndef f(): x=5\nf(); print(x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "SC_M_03",
+      "q": "Which modifies global?",
+      "opts": [
+        "global",
+        "local",
+        "var",
+        "def"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_M_04",
+      "q": "What is output?\nx=5\ndef f(): x=10\nf(); print(x)",
+      "opts": [
+        "5",
+        "10",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_M_05",
+      "q": "LEGB rule includes:",
+      "opts": [
+        "Local",
+        "Enclosing",
+        "Global",
+        "Built-in"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_M_06",
+      "q": "What is output?\nx=5\ndef f(): global x; x=10\nf(); print(x)",
+      "opts": [
+        "10",
+        "5",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_M_07",
+      "q": "Nonlocal used for:",
+      "opts": [
+        "global",
+        "enclosing",
+        "local",
+        "built-in"
+      ],
+      "ans": 1
+    }
+  ],
+  "hard": [
+    {
+      "id": "SC_H_01",
+      "q": "What is output?\ndef outer(): x=5\n def inner(): print(x)\n inner()\nouter()",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_H_02",
+      "q": "What is output?\ndef f():\n x=5\n def g():\n  nonlocal x\n  x=10\n g(); print(x)\nf()",
+      "opts": [
+        "10",
+        "5",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_H_03",
+      "q": "Scope resolution order:",
+      "opts": [
+        "LEGB",
+        "GLBE",
+        "ELGB",
+        "LBGE"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_H_04",
+      "q": "What is output?\nx=5\ndef f():\n print(x)\n x=10\nf()",
+      "opts": [
+        "Error",
+        "5",
+        "10",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "locals override globals",
+        "globals override locals",
+        "same",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SC_H_06",
+      "q": "Built-in scope example:",
+      "opts": [
+        "len",
+        "x",
+        "f",
+        "class"
+      ],
+      "ans": 0
+    }
+  ]
+}

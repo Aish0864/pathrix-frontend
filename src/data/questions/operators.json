@@ -1,0 +1,128 @@
+{
+  "easy": [
+    {
+      "id": "OP_E_01",
+      "q": "What does + do?",
+      "opts": ["Addition", "Subtraction", "Division", "Multiplication"],
+      "ans": 0
+    },
+    {
+      "id": "OP_E_02",
+      "q": "What is 5 - 2?",
+      "opts": ["2", "3", "5", "7"],
+      "ans": 1
+    },
+    {
+      "id": "OP_E_03",
+      "q": "What is 3 * 2?",
+      "opts": ["5", "6", "3", "2"],
+      "ans": 1
+    },
+    {
+      "id": "OP_E_04",
+      "q": "What is 8 / 2?",
+      "opts": ["4", "2", "8", "16"],
+      "ans": 0
+    },
+    {
+      "id": "OP_E_05",
+      "q": "What is 5 % 2?",
+      "opts": ["1", "2", "0", "5"],
+      "ans": 0
+    },
+    {
+      "id": "OP_E_06",
+      "q": "Which is comparison operator?",
+      "opts": ["+", "==", "*", "/"],
+      "ans": 1
+    },
+    {
+      "id": "OP_E_07",
+      "q": "What is 2 ** 3?",
+      "opts": ["6", "8", "9", "5"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "OP_M_01",
+      "q": "What is output?\nprint(5 > 3)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "OP_M_02",
+      "q": "What is output?\nprint(5 == 5)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "OP_M_03",
+      "q": "What is output?\nprint(5 != 3)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "OP_M_04",
+      "q": "What is output?\nprint(10 // 3)",
+      "opts": ["3", "3.3", "4", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "OP_M_05",
+      "q": "What is output?\nprint(2 + 3 * 2)",
+      "opts": ["10", "8", "12", "7"],
+      "ans": 1
+    },
+    {
+      "id": "OP_M_06",
+      "q": "Which is logical operator?",
+      "opts": ["+", "and", "*", "/"],
+      "ans": 1
+    },
+    {
+      "id": "OP_M_07",
+      "q": "What is output?\nprint(True and False)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    }
+  ],
+  "hard": [
+    {
+      "id": "OP_H_01",
+      "q": "What is output?\nprint(3 > 2 and 2 > 1)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "OP_H_02",
+      "q": "What is output?\nprint(not True)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "OP_H_03",
+      "q": "What is output?\nprint(5 > 3 or 2 > 4)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "OP_H_04",
+      "q": "What is output?\nprint(3 == '3')",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "OP_H_05",
+      "q": "What is output?\nprint(bool(5))",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "OP_H_06",
+      "q": "What is output?\nprint(0 or 5)",
+      "opts": ["0", "5", "False", "Error"],
+      "ans": 1
+    }
+  ]
+}

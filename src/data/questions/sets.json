@@ -1,0 +1,139 @@
+
+{
+  "easy": [
+    {
+      "id": "SE_E_01",
+      "q": "Which represents set?",
+      "opts": ["[]", "()", "{}", "<>"],
+      "ans": 2
+    },
+    {
+      "id": "SE_E_02",
+      "q": "Sets store:",
+      "opts": ["duplicates", "unique values", "ordered values", "indexed values"],
+      "ans": 1
+    },
+    {
+      "id": "SE_E_03",
+      "q": "Are sets ordered?",
+      "opts": ["Yes", "No", "Sometimes", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "SE_E_04",
+      "q": "Which method adds element?",
+      "opts": ["append()", "add()", "insert()", "push()"],
+      "ans": 1
+    },
+    {
+      "id": "SE_E_05",
+      "q": "What is len({1,2,2})?",
+      "opts": ["3", "2", "1", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "SE_E_06",
+      "q": "Set can store:",
+      "opts": ["mutable items", "immutable items", "only int", "only str"],
+      "ans": 1
+    },
+    {
+      "id": "SE_E_07",
+      "q": "What is {}?",
+      "opts": ["set", "dict", "list", "tuple"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "SE_M_01",
+      "q": "What is output?\ns={1,2,3}\ns.add(4)\nprint(s)",
+      "opts": ["{1,2,3,4}", "{4,3,2,1}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "SE_M_02",
+      "q": "What is output?\ns={1,2,3}\ns.remove(2)\nprint(s)",
+      "opts": ["{1,3}", "{2,3}", "{1,2}", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "SE_M_03",
+      "q": "What is output?\nprint(2 in {1,2,3})",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "SE_M_04",
+      "q": "Which operation finds common?",
+      "opts": ["union", "intersection", "difference", "add"],
+      "ans": 1
+    },
+    {
+      "id": "SE_M_05",
+      "q": "What is output?\nprint({1,2}&{2,3})",
+      "opts": ["{2}", "{1,2,3}", "{1}", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "SE_M_06",
+      "q": "What is output?\nprint({1,2}|{3})",
+      "opts": ["{1,2,3}", "{3}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "SE_M_07",
+      "q": "Set difference?",
+      "opts": ["A-B", "A+B", "A&B", "A*B"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "SE_H_01",
+      "q": "What is output?\ns={1,2,3}\ns.discard(5)\nprint(s)",
+      "opts": ["{1,2,3}", "Error", "None", "{}"],
+      "ans": 0
+    },
+    {
+      "id": "SE_H_02",
+      "q": "What is output?\ns={1,2,3}\ns.remove(5)",
+      "opts": ["Error", "None", "{1,2,3}", "{}"],
+      "ans": 0
+    },
+    {
+      "id": "SE_H_03",
+      "q": "What is output?\nprint({1,2}^{2,3})",
+      "opts": ["{1,3}", "{2}", "{1,2,3}", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "SE_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "sets ordered",
+        "sets allow duplicates",
+        "sets unordered",
+        "sets indexed"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "SE_H_05",
+      "q": "What is output?\nprint(len(set([1,1,2])))",
+      "opts": ["2", "3", "1", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "SE_H_06",
+      "q": "Which is allowed?",
+      "opts": [
+        "{[1,2]}",
+        "{(1,2)}",
+        "{{1,2}}",
+        "{1:{2}}"
+      ],
+      "ans": 1
+    }
+  ]
+}

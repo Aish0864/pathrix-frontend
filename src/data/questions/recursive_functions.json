@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "RF_E_01",
+      "q": "Recursion means:",
+      "opts": [
+        "loop",
+        "function calling itself",
+        "class",
+        "variable"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "RF_E_02",
+      "q": "Recursion requires:",
+      "opts": [
+        "loop",
+        "base case",
+        "class",
+        "object"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "RF_E_03",
+      "q": "Recursive call is:",
+      "opts": [
+        "external",
+        "self-call",
+        "loop",
+        "class"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "RF_E_04",
+      "q": "Recursion stops at:",
+      "opts": [
+        "loop",
+        "base case",
+        "error",
+        "none"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "RF_E_05",
+      "q": "Recursion uses:",
+      "opts": [
+        "stack",
+        "queue",
+        "array",
+        "list"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_E_06",
+      "q": "Without base case:",
+      "opts": [
+        "error",
+        "infinite recursion",
+        "loop",
+        "none"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "RF_E_07",
+      "q": "Recursion replaces:",
+      "opts": [
+        "loop sometimes",
+        "class",
+        "object",
+        "variable"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "RF_M_01",
+      "q": "What is output?\ndef f(n):\n if n==0:return 1\n return n*f(n-1)\nprint(f(3))",
+      "opts": [
+        "6",
+        "3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_M_02",
+      "q": "What is output?\ndef f(n):\n if n==1:return 1\n return f(n-1)\nprint(f(2))",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_M_03",
+      "q": "Recursive depth depends on:",
+      "opts": [
+        "input",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_M_04",
+      "q": "What is output?\ndef f(n):\n if n==0:return 0\n return n+f(n-1)\nprint(f(3))",
+      "opts": [
+        "6",
+        "3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_M_05",
+      "q": "Recursion uses memory in:",
+      "opts": [
+        "stack",
+        "heap",
+        "disk",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_M_06",
+      "q": "What is output?\ndef f(n):\n if n<=1:return n\n return f(n-1)+f(n-2)\nprint(f(2))",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_M_07",
+      "q": "Recursive call must approach:",
+      "opts": [
+        "base case",
+        "loop",
+        "class",
+        "object"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "RF_H_01",
+      "q": "What is output?\ndef f(n):\n if n==0:return 1\n return f(n-1)+1\nprint(f(3))",
+      "opts": [
+        "4",
+        "3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_H_02",
+      "q": "Stack overflow occurs when:",
+      "opts": [
+        "deep recursion",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_H_03",
+      "q": "What is output?\ndef f(n):\n if n==1:return 1\n return n*f(n-1)\nprint(f(4))",
+      "opts": [
+        "24",
+        "4",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_H_04",
+      "q": "Tail recursion is:",
+      "opts": [
+        "optimized recursion",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_H_05",
+      "q": "What is output?\ndef f(n):\n if n<=1:return n\n return f(n-1)+f(n-2)\nprint(f(4))",
+      "opts": [
+        "3",
+        "5",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RF_H_06",
+      "q": "Recursive calls stored in:",
+      "opts": [
+        "call stack",
+        "queue",
+        "list",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

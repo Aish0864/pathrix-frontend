@@ -1,0 +1,134 @@
+
+{
+  "easy": [
+    {
+      "id": "RV_E_01",
+      "q": "Which keyword returns value?",
+      "opts": ["return", "print", "yield", "exit"],
+      "ans": 0
+    },
+    {
+      "id": "RV_E_02",
+      "q": "Default return value?",
+      "opts": ["0", "None", "Error", "''"],
+      "ans": 1
+    },
+    {
+      "id": "RV_E_03",
+      "q": "return exits:",
+      "opts": ["loop", "function", "program", "class"],
+      "ans": 1
+    },
+    {
+      "id": "RV_E_04",
+      "q": "Can function return multiple?",
+      "opts": ["Yes", "No", "Only one", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "RV_E_05",
+      "q": "return is used in:",
+      "opts": ["function", "loop", "class", "variable"],
+      "ans": 0
+    },
+    {
+      "id": "RV_E_06",
+      "q": "Which is valid?",
+      "opts": ["return x", "return:", "return()", "return x,y"],
+      "ans": 0
+    },
+    {
+      "id": "RV_E_07",
+      "q": "return sends value to:",
+      "opts": ["caller", "loop", "class", "variable"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "RV_M_01",
+      "q": "What is output?\ndef f(): return 5\nprint(f())",
+      "opts": ["5", "None", "Error", "f"],
+      "ans": 0
+    },
+    {
+      "id": "RV_M_02",
+      "q": "What is output?\ndef f(): return\nprint(f())",
+      "opts": ["None", "0", "Error", "''"],
+      "ans": 0
+    },
+    {
+      "id": "RV_M_03",
+      "q": "What is output?\ndef f(): return 1,2\nprint(f())",
+      "opts": ["(1,2)", "1 2", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "RV_M_04",
+      "q": "What is output?\ndef f(): return 5\nprint(type(f()))",
+      "opts": ["int", "function", "NoneType", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "RV_M_05",
+      "q": "Which stops function execution?",
+      "opts": ["return", "break", "continue", "pass"],
+      "ans": 0
+    },
+    {
+      "id": "RV_M_06",
+      "q": "What is output?\ndef f(x): return x*2\nprint(f(3))",
+      "opts": ["6", "3", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "RV_M_07",
+      "q": "Return type depends on:",
+      "opts": ["value returned", "function name", "loop", "condition"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "RV_H_01",
+      "q": "What is output?\ndef f(): return [1,2]\nx=f(); x.append(3)\nprint(f())",
+      "opts": ["[1,2]", "[1,2,3]", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "RV_H_02",
+      "q": "What is output?\ndef f(): return 1\ndef g(): return f()\nprint(g())",
+      "opts": ["1", "None", "Error", "g"],
+      "ans": 0
+    },
+    {
+      "id": "RV_H_03",
+      "q": "What is output?\ndef f(): return\nx=f()\nprint(x is None)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "RV_H_04",
+      "q": "What is output?\ndef f(): return (1,2)\na,b=f()\nprint(a)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "RV_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "return optional",
+        "return mandatory",
+        "return only once",
+        "return cannot send multiple"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "RV_H_06",
+      "q": "return inside loop exits:",
+      "opts": ["loop only", "function entirely", "program", "class"],
+      "ans": 1
+    }
+  ]
+}

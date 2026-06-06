@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "EL_E_01",
+      "q": "Event loop used in:",
+      "opts": [
+        "asyncio",
+        "threading",
+        "multiprocessing",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_02",
+      "q": "Manages:",
+      "opts": [
+        "tasks",
+        "threads",
+        "process",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_03",
+      "q": "Runs coroutines:",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_04",
+      "q": "Single-threaded?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_05",
+      "q": "Start via:",
+      "opts": [
+        "run",
+        "start",
+        "exec",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_06",
+      "q": "Loop schedules:",
+      "opts": [
+        "tasks",
+        "vars",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_07",
+      "q": "Used for:",
+      "opts": [
+        "async IO",
+        "CPU",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "EL_M_01",
+      "q": "What is output?\nimport asyncio\nprint(asyncio.get_event_loop() is not None)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_M_02",
+      "q": "Tasks added via:",
+      "opts": [
+        "create_task",
+        "thread",
+        "process",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_M_03",
+      "q": "What is output?\nimport asyncio\nasync def f(): return 1\nprint(asyncio.run(f()))",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_M_04",
+      "q": "Concurrency via:",
+      "opts": [
+        "cooperative",
+        "preemptive",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_M_05",
+      "q": "Future represents:",
+      "opts": [
+        "result placeholder",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_M_06",
+      "q": "What is output?\nimport asyncio\nasync def f(): return 1\nc=f();print(hasattr(c,'__await__'))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_M_07",
+      "q": "Loop runs until:",
+      "opts": [
+        "complete",
+        "error",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "EL_H_01",
+      "q": "Awaitable includes:",
+      "opts": [
+        "coroutine",
+        "future",
+        "task",
+        "all"
+      ],
+      "ans": 3
+    },
+    {
+      "id": "EL_H_02",
+      "q": "Event loop policy defines:",
+      "opts": [
+        "loop behavior",
+        "thread",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_H_03",
+      "q": "What is output?\nimport asyncio\nasync def f(): return 1\nasync def g(): return await f()\nprint(asyncio.run(g()))",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "non-blocking",
+        "blocking",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_H_05",
+      "q": "Loop closed via:",
+      "opts": [
+        "close",
+        "stop",
+        "end",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EL_H_06",
+      "q": "Tasks executed in:",
+      "opts": [
+        "event loop",
+        "thread",
+        "process",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

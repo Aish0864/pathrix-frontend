@@ -1,0 +1,133 @@
+{
+  "easy": [
+    {
+      "id": "IO_E_01",
+      "q": "Which function is used to display output in Python?",
+      "opts": ["input()", "print()", "display()", "show()"],
+      "ans": 1
+    },
+    {
+      "id": "IO_E_02",
+      "q": "Which function is used to take input from user?",
+      "opts": ["get()", "input()", "scan()", "read()"],
+      "ans": 1
+    },
+    {
+      "id": "IO_E_03",
+      "q": "What does print('Hello') do?",
+      "opts": ["Takes input", "Displays Hello", "Stores value", "Throws error"],
+      "ans": 1
+    },
+    {
+      "id": "IO_E_04",
+      "q": "What is returned by input()?",
+      "opts": ["int", "float", "str", "bool"],
+      "ans": 2
+    },
+    {
+      "id": "IO_E_05",
+      "q": "Which symbol is used for string formatting in print?",
+      "opts": ["%", "#", "@", "&"],
+      "ans": 0
+    },
+    {
+      "id": "IO_E_06",
+      "q": "What does print(5, 6) output?",
+      "opts": ["56", "5 6", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IO_E_07",
+      "q": "Which function reads input as string always?",
+      "opts": ["int()", "input()", "float()", "bool()"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "IO_M_01",
+      "q": "What is output?\nprint('A' + 'B')",
+      "opts": ["AB", "A B", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IO_M_02",
+      "q": "What is output?\nprint(2, 3, sep='-')",
+      "opts": ["2 3", "2-3", "23", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "IO_M_03",
+      "q": "What is output?\nprint('Hello', end='!')",
+      "opts": ["Hello!", "Hello !", "Hello", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "IO_M_04",
+      "q": "What is output?\nx = input()\n(Assume input: 5)\nprint(type(x))",
+      "opts": ["int", "str", "float", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "IO_M_05",
+      "q": "How to convert input to integer?",
+      "opts": [
+        "int(input())",
+        "input(int())",
+        "str(input())",
+        "float(input())"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IO_M_06",
+      "q": "What is output?\nprint(f'{2+3}')",
+      "opts": ["5", "2+3", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IO_M_07",
+      "q": "Which keyword controls line ending in print?",
+      "opts": ["sep", "end", "join", "stop"],
+      "ans": 1
+    }
+  ],
+  "hard": [
+    {
+      "id": "IO_H_01",
+      "q": "What is output?\nprint('A', 'B', sep='', end='C')",
+      "opts": ["ABC", "A B C", "AB C", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "IO_H_02",
+      "q": "What is output?\nprint('5' * 2)",
+      "opts": ["10", "55", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IO_H_03",
+      "q": "What is output?\nprint(int('10') + 5)",
+      "opts": ["15", "105", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IO_H_04",
+      "q": "What is output?\nprint(len(input()))\n(Assume input: abc)",
+      "opts": ["2", "3", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IO_H_05",
+      "q": "What is output?\nprint('Hello\\nWorld')",
+      "opts": ["Hello World", "Hello\nWorld", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IO_H_06",
+      "q": "What is output?\nprint(bool(input()))\n(Assume empty input)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    }
+  ]
+}

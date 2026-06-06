@@ -1,0 +1,148 @@
+{
+  "easy": [
+    {
+      "id": "CM_E_01",
+      "q": "Which symbol is used for single-line comments?",
+      "opts": ["//", "#", "/*", "--"],
+      "ans": 1
+    },
+    {
+      "id": "CM_E_02",
+      "q": "What does a comment do?",
+      "opts": [
+        "Executes code",
+        "Ignored by interpreter",
+        "Stores data",
+        "Prints output"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "CM_E_03",
+      "q": "Which is a valid comment?",
+      "opts": [
+        "# This is comment",
+        "// comment",
+        "/* comment */",
+        "<!-- comment -->"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_04",
+      "q": "Comments are used for:",
+      "opts": ["Debugging", "Explanation", "Ignoring code", "All of these"],
+      "ans": 3
+    },
+    {
+      "id": "CM_E_05",
+      "q": "Which is multi-line comment style in Python?",
+      "opts": ["//", "''' '''", "# #", "--"],
+      "ans": 1
+    },
+    {
+      "id": "CM_E_06",
+      "q": "Will comments affect execution?",
+      "opts": ["Yes", "No", "Sometimes", "Only in loops"],
+      "ans": 1
+    },
+    {
+      "id": "CM_E_07",
+      "q": "What is ignored by Python?",
+      "opts": ["Variables", "Comments", "Functions", "Loops"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "CM_M_01",
+      "q": "What is output?\n# print(5)\nprint(3)",
+      "opts": ["5", "3", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "CM_M_02",
+      "q": "Which is used for documentation?",
+      "opts": ["#", "''' '''", "//", "--"],
+      "ans": 1
+    },
+    {
+      "id": "CM_M_03",
+      "q": "What happens?\nprint(5) # comment",
+      "opts": ["Error", "5", "Nothing", "Comment printed"],
+      "ans": 1
+    },
+    {
+      "id": "CM_M_04",
+      "q": "Are docstrings executable?",
+      "opts": ["Yes", "No", "Only in functions", "Only in classes"],
+      "ans": 1
+    },
+    {
+      "id": "CM_M_05",
+      "q": "Which is correct?",
+      "opts": [
+        "Comments slow execution",
+        "Comments ignored",
+        "Comments mandatory",
+        "Comments compiled"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "CM_M_06",
+      "q": "What is output?\nprint('Hi') # print('Bye')",
+      "opts": ["Hi", "Bye", "Hi Bye", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_07",
+      "q": "Docstrings are stored in:",
+      "opts": ["__doc__", "__str__", "__name__", "__file__"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "CM_H_01",
+      "q": "What is output?\n'''print(5)'''\nprint(2)",
+      "opts": ["5", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "CM_H_02",
+      "q": "Which is true?",
+      "opts": [
+        "Docstrings are comments",
+        "Docstrings are runtime objects",
+        "Comments are executable",
+        "None"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "CM_H_03",
+      "q": "What is output?\ndef f():\n    '''doc'''\n    return 1\nprint(f.__doc__)",
+      "opts": ["doc", "1", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_04",
+      "q": "What is output?\n# comment\n'''doc'''\nprint('A')",
+      "opts": ["A", "doc", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_05",
+      "q": "Comments are processed during:",
+      "opts": ["Compilation", "Execution", "Parsing", "Ignored entirely"],
+      "ans": 3
+    },
+    {
+      "id": "CM_H_06",
+      "q": "Which is stored in bytecode?",
+      "opts": ["Comments", "Docstrings", "Both", "None"],
+      "ans": 1
+    }
+  ]
+}

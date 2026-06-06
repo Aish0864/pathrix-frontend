@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "OB_E_01",
+      "q": "Object is:",
+      "opts": [
+        "instance",
+        "class",
+        "loop",
+        "function"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_E_02",
+      "q": "Object created from:",
+      "opts": [
+        "class",
+        "loop",
+        "function",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_E_03",
+      "q": "Object holds:",
+      "opts": [
+        "data+methods",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_E_04",
+      "q": "Access attribute using:",
+      "opts": [
+        ".",
+        "->",
+        "[]",
+        "()"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_E_05",
+      "q": "Multiple objects from one class?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_E_06",
+      "q": "Object represents:",
+      "opts": [
+        "real entity",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_E_07",
+      "q": "Object belongs to:",
+      "opts": [
+        "class",
+        "loop",
+        "func",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "OB_M_01",
+      "q": "What is output?\nclass A:\n x=5\na=A();print(a.x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_M_02",
+      "q": "Objects stored as:",
+      "opts": [
+        "references",
+        "values",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_M_03",
+      "q": "What is output?\nclass A:\n def __init__(self): self.x=2\na=A();print(a.x)",
+      "opts": [
+        "2",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_M_04",
+      "q": "Object methods called via:",
+      "opts": [
+        "dot",
+        "loop",
+        "func",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_M_05",
+      "q": "What is output?\nclass A: pass\na=A();print(isinstance(a,A))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_M_06",
+      "q": "Object identity via:",
+      "opts": [
+        "id()",
+        "len()",
+        "type()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_M_07",
+      "q": "What is output?\nclass A: x=1\na=A();b=A();print(a.x==b.x)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "OB_H_01",
+      "q": "What is output?\nclass A:\n x=5\na=A();b=A();b.x=10\nprint(a.x)",
+      "opts": [
+        "5",
+        "10",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_H_02",
+      "q": "What is output?\nclass A:\n pass\na=A();b=a\nprint(a is b)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_H_03",
+      "q": "Object comparison uses:",
+      "opts": [
+        "is",
+        "==",
+        "both",
+        "none"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "OB_H_04",
+      "q": "What is output?\nclass A:\n def __init__(self,x): self.x=x\na=A(3);b=A(3);print(a==b)",
+      "opts": [
+        "False",
+        "True",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "objects are references",
+        "objects are values",
+        "same",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OB_H_06",
+      "q": "What is output?\nclass A:\n pass\na=A();print(type(a))",
+      "opts": [
+        "<class '__main__.A'>",
+        "A",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    }
+  ]
+}

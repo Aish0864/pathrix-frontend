@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "LS_E_01",
+      "q": "Lock used for:",
+      "opts": [
+        "sync",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_E_02",
+      "q": "Semaphore controls:",
+      "opts": [
+        "access count",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_E_03",
+      "q": "Thread-safe ensures:",
+      "opts": [
+        "no race",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_E_04",
+      "q": "Acquire lock via:",
+      "opts": [
+        "acquire",
+        "lock",
+        "get",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_E_05",
+      "q": "Release lock via:",
+      "opts": [
+        "release",
+        "unlock",
+        "free",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_E_06",
+      "q": "Deadlock means:",
+      "opts": [
+        "block forever",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_E_07",
+      "q": "Semaphore value:",
+      "opts": [
+        "counter",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "LS_M_01",
+      "q": "What is output?\nimport threading\nl=threading.Lock();print(isinstance(l,object))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_M_02",
+      "q": "Lock ensures:",
+      "opts": [
+        "mutual exclusion",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_M_03",
+      "q": "What is output?\nimport threading\ns=threading.Semaphore(1);print(s._value==1)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_M_04",
+      "q": "Binary semaphore equals:",
+      "opts": [
+        "lock",
+        "queue",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_M_05",
+      "q": "What is output?\nimport threading\nl=threading.Lock();l.acquire();print(l.locked())",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_M_06",
+      "q": "Context manager for lock:",
+      "opts": [
+        "with",
+        "try",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_M_07",
+      "q": "Race condition solved by:",
+      "opts": [
+        "lock",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "LS_H_01",
+      "q": "Deadlock condition:",
+      "opts": [
+        "circular wait",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_H_02",
+      "q": "Semaphore acquire decreases:",
+      "opts": [
+        "counter",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_H_03",
+      "q": "What is output?\nimport threading\nl=threading.Lock();l.acquire();l.release();print(l.locked())",
+      "opts": [
+        "False",
+        "True",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "locks block threads",
+        "not",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_H_05",
+      "q": "Reentrant lock via:",
+      "opts": [
+        "RLock",
+        "Lock",
+        "Semaphore",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LS_H_06",
+      "q": "Semaphore allows:",
+      "opts": [
+        "multiple access",
+        "single",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ]
+}

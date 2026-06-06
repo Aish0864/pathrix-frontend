@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "MA_E_01",
+      "q": "Math module imported via:",
+      "opts": [
+        "import math",
+        "use math",
+        "load math",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_E_02",
+      "q": "sqrt function:",
+      "opts": [
+        "math.sqrt",
+        "sqrt",
+        "root",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_E_03",
+      "q": "pi value via:",
+      "opts": [
+        "math.pi",
+        "pi",
+        "3.14",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_E_04",
+      "q": "ceil rounds:",
+      "opts": [
+        "up",
+        "down",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_E_05",
+      "q": "floor rounds:",
+      "opts": [
+        "down",
+        "up",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_E_06",
+      "q": "abs gives:",
+      "opts": [
+        "absolute",
+        "negative",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_E_07",
+      "q": "pow computes:",
+      "opts": [
+        "power",
+        "sum",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "MA_M_01",
+      "q": "What is output?\nimport math\nprint(math.sqrt(9))",
+      "opts": [
+        "3.0",
+        "9",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_M_02",
+      "q": "What is output?\nimport math\nprint(math.ceil(2.1))",
+      "opts": [
+        "3",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_M_03",
+      "q": "What is output?\nimport math\nprint(math.floor(2.9))",
+      "opts": [
+        "2",
+        "3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_M_04",
+      "q": "What is output?\nprint(abs(-3))",
+      "opts": [
+        "3",
+        "-3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_M_05",
+      "q": "Trig function:",
+      "opts": [
+        "sin",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_M_06",
+      "q": "What is output?\nimport math\nprint(round(math.pi,2))",
+      "opts": [
+        "3.14",
+        "3.1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_M_07",
+      "q": "Factorial via:",
+      "opts": [
+        "math.factorial",
+        "fact",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "MA_H_01",
+      "q": "What is output?\nimport math\nprint(math.factorial(3))",
+      "opts": [
+        "6",
+        "3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_H_02",
+      "q": "What is output?\nimport math\nprint(math.gcd(6,9))",
+      "opts": [
+        "3",
+        "6",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_H_03",
+      "q": "Radians conversion via:",
+      "opts": [
+        "radians",
+        "degrees",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_H_04",
+      "q": "What is output?\nimport math\nprint(math.isfinite(1.0))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "math immutable",
+        "mutable",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MA_H_06",
+      "q": "Log function:",
+      "opts": [
+        "math.log",
+        "log",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

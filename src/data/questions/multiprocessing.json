@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "MP_E_01",
+      "q": "Multiprocessing means:",
+      "opts": [
+        "multiple processes",
+        "threads",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_E_02",
+      "q": "Processes have:",
+      "opts": [
+        "separate memory",
+        "shared memory",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_E_03",
+      "q": "Module used:",
+      "opts": [
+        "multiprocessing",
+        "threading",
+        "asyncio",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_E_04",
+      "q": "Better for:",
+      "opts": [
+        "CPU-bound",
+        "I/O-bound",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_E_05",
+      "q": "Process start method:",
+      "opts": [
+        "start()",
+        "run()",
+        "exec()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_E_06",
+      "q": "Join used for:",
+      "opts": [
+        "wait",
+        "stop",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_E_07",
+      "q": "Processes share memory?",
+      "opts": [
+        "No",
+        "Yes",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "MP_M_01",
+      "q": "What is output?\nimport multiprocessing\nprint(multiprocessing.cpu_count()>=1)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_M_02",
+      "q": "Process target via:",
+      "opts": [
+        "Process(target=)",
+        "run()",
+        "start()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_M_03",
+      "q": "IPC via:",
+      "opts": [
+        "Queue",
+        "Lock",
+        "Thread",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_M_04",
+      "q": "What is output?\nfrom multiprocessing import Process\nprint(isinstance(Process(),object))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_M_05",
+      "q": "Fork creates:",
+      "opts": [
+        "child process",
+        "thread",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_M_06",
+      "q": "Daemon process ends when:",
+      "opts": [
+        "main ends",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_M_07",
+      "q": "Process-safe means:",
+      "opts": [
+        "no race",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "MP_H_01",
+      "q": "Multiprocessing bypasses:",
+      "opts": [
+        "GIL",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_H_02",
+      "q": "CPU cores utilized via:",
+      "opts": [
+        "processes",
+        "threads",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_H_03",
+      "q": "Pickle used for:",
+      "opts": [
+        "data transfer",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_H_04",
+      "q": "Deadlock occurs when:",
+      "opts": [
+        "resource wait",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "process isolated",
+        "shared",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MP_H_06",
+      "q": "PID identifies:",
+      "opts": [
+        "process",
+        "thread",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

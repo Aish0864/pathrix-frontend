@@ -1,0 +1,145 @@
+
+{
+  "easy": [
+    {
+      "id": "WL_E_01",
+      "q": "Which keyword creates a loop based on condition?",
+      "opts": ["for", "if", "while", "def"],
+      "ans": 2
+    },
+    {
+      "id": "WL_E_02",
+      "q": "When does while loop stop?",
+      "opts": ["When condition true", "When condition false", "Never", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "WL_E_03",
+      "q": "What is output?\nx=0\nwhile x<1:\n print(x)\n x+=1",
+      "opts": ["0", "1", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "WL_E_04",
+      "q": "Which can cause infinite loop?",
+      "opts": ["while True", "while False", "for", "if"],
+      "ans": 0
+    },
+    {
+      "id": "WL_E_05",
+      "q": "Which updates loop variable?",
+      "opts": ["assignment", "print", "input", "break"],
+      "ans": 0
+    },
+    {
+      "id": "WL_E_06",
+      "q": "What is output?\nx=1\nwhile x<3:\n x+=1\nprint(x)",
+      "opts": ["2", "3", "1", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "WL_E_07",
+      "q": "While loop needs:",
+      "opts": ["condition", "iterator", "function", "class"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "WL_M_01",
+      "q": "What is output?\nx=0\nwhile x<3:\n print(x)\n x+=1",
+      "opts": ["0 1 2", "1 2 3", "0 1", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_M_02",
+      "q": "What is output?\nx=3\nwhile x>0:\n print(x)\n x-=1",
+      "opts": ["3 2 1", "1 2 3", "3 2", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_M_03",
+      "q": "Which is correct?",
+      "opts": [
+        "while runs fixed times",
+        "while depends on condition",
+        "while only numbers",
+        "while no condition"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "WL_M_04",
+      "q": "What is output?\nx=0\nwhile x<2:\n x+=1\nprint(x)",
+      "opts": ["2", "1", "0", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_M_05",
+      "q": "What is output?\nwhile False:\n print(1)",
+      "opts": ["1", "0", "Nothing", "Error"],
+      "ans": 2
+    },
+    {
+      "id": "WL_M_06",
+      "q": "What is output?\nx=0\nwhile x<3:\n if x==1: break\n print(x)\n x+=1",
+      "opts": ["0", "0 1", "1", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_M_07",
+      "q": "What is output?\nx=0\nwhile x<3:\n x+=1\n if x==2: continue\n print(x)",
+      "opts": ["1 3", "2 3", "1 2 3", "Error"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "WL_H_01",
+      "q": "What is output?\nx=0\nwhile x<3:\n print(x)\n x+=1\nelse:\n print('done')",
+      "opts": ["0 1 2 done", "0 1 2", "done", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_H_02",
+      "q": "What is output?\nx=0\nwhile x<3:\n if x==2: break\n print(x)\n x+=1",
+      "opts": ["0 1", "0 1 2", "1 2", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_H_03",
+      "q": "Which is true?",
+      "opts": [
+        "while cannot nest",
+        "while supports nesting",
+        "while fixed iterations",
+        "while no condition"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "WL_H_04",
+      "q": "What is output?\nx=1\nwhile x<5:\n x*=2\nprint(x)",
+      "opts": ["8", "4", "16", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "WL_H_05",
+      "q": "What is output?\nx=0\nwhile x<3:\n x+=1\n if x==2: break\nelse:\n print(5)",
+      "opts": ["5", "Nothing", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "WL_H_06",
+      "q": "Infinite loop occurs when:",
+      "opts": [
+        "Condition never false",
+        "Condition always false",
+        "Break used",
+        "Continue used"
+      ],
+      "ans": 0
+    }
+  ]
+}
+

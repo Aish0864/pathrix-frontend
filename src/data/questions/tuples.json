@@ -1,0 +1,143 @@
+{
+  "easy": [
+    {
+      "id": "TP_E_01",
+      "q": "Which represents tuple?",
+      "opts": ["[]", "()", "{}", "<>"],
+      "ans": 1
+    },
+    {
+      "id": "TP_E_02",
+      "q": "Tuples are:",
+      "opts": ["mutable", "immutable", "numeric", "boolean"],
+      "ans": 1
+    },
+    {
+      "id": "TP_E_03",
+      "q": "What is (1,)?",
+      "opts": ["int", "tuple", "list", "error"],
+      "ans": 1
+    },
+    {
+      "id": "TP_E_04",
+      "q": "What is len((1,2,3))?",
+      "opts": ["2", "3", "4", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "TP_E_05",
+      "q": "Indexing works on tuples?",
+      "opts": ["Yes", "No", "Sometimes", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "TP_E_06",
+      "q": "Tuple can store:",
+      "opts": ["single type", "multiple types", "only numbers", "only strings"],
+      "ans": 1
+    },
+    {
+      "id": "TP_E_07",
+      "q": "What is (1,2)+(3,)?",
+      "opts": ["(1,2,3)", "(3,1,2)", "Error", "None"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "TP_M_01",
+      "q": "What is output?\nt=(1,2,3)\nprint(t[1])",
+      "opts": ["1", "2", "3", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "TP_M_02",
+      "q": "What is output?\nt=(1,2,3)\nprint(t[-1])",
+      "opts": ["1", "2", "3", "Error"],
+      "ans": 2
+    },
+    {
+      "id": "TP_M_03",
+      "q": "What is output?\nt=(1,2,3)\nprint(t[0:2])",
+      "opts": ["(1,2)", "(2,3)", "(1,)", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "TP_M_04",
+      "q": "Which is true?",
+      "opts": [
+        "tuples mutable",
+        "tuples immutable",
+        "tuples numeric",
+        "tuples boolean"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "TP_M_05",
+      "q": "What is output?\nt=(1,2)\na,b=t\nprint(a)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "TP_M_06",
+      "q": "Tuple unpacking means:",
+      "opts": [
+        "splitting values",
+        "adding values",
+        "removing values",
+        "copying tuple"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TP_M_07",
+      "q": "What is output?\nt=(1,2,3)\nprint(len(t))",
+      "opts": ["3", "2", "1", "Error"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "TP_H_01",
+      "q": "What is output?\nt=(1,[2,3])\nt[1].append(4)\nprint(t)",
+      "opts": ["(1,[2,3])", "(1,[2,3,4])", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "TP_H_02",
+      "q": "What is output?\nt=(1,2,3)\nprint(2 in t)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "TP_H_03",
+      "q": "What is output?\nt=(1,2,3)\nprint(t[::-1])",
+      "opts": ["(3,2,1)", "(1,2,3)", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "TP_H_04",
+      "q": "What is output?\nt=(1,2,3)\ndel t",
+      "opts": ["Deleted", "Error", "None", "0"],
+      "ans": 0
+    },
+    {
+      "id": "TP_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "tuple fully immutable",
+        "tuple elements always immutable",
+        "tuple can contain mutable elements",
+        "tuple cannot store list"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "TP_H_06",
+      "q": "What is output?\nt=(1,2)\nt=t+(3,)\nprint(t)",
+      "opts": ["(1,2,3)", "(3,1,2)", "Error", "None"],
+      "ans": 0
+    }
+  ]
+}

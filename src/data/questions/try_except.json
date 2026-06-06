@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "TE_E_01",
+      "q": "try block contains:",
+      "opts": [
+        "risky code",
+        "loop",
+        "class",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_E_02",
+      "q": "except handles:",
+      "opts": [
+        "exception",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_E_03",
+      "q": "finally block:",
+      "opts": [
+        "always runs",
+        "never",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_E_04",
+      "q": "else block runs when:",
+      "opts": [
+        "no exception",
+        "exception",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_E_05",
+      "q": "try must have:",
+      "opts": [
+        "except/finally",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_E_06",
+      "q": "except can catch:",
+      "opts": [
+        "all or specific",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_E_07",
+      "q": "Order:",
+      "opts": [
+        "try-except-finally",
+        "except-try",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "TE_M_01",
+      "q": "What is output?\ntry:\n print(1)\nexcept:\n print(2)\nfinally:\n print(3)",
+      "opts": [
+        "1 3",
+        "1 2",
+        "3",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_M_02",
+      "q": "What is output?\ntry:\n 1/0\nexcept ZeroDivisionError:\n print('z')",
+      "opts": [
+        "z",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_M_03",
+      "q": "Multiple except order:",
+      "opts": [
+        "specific first",
+        "general first",
+        "any",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_M_04",
+      "q": "What is output?\ntry:\n pass\nexcept:\n print(1)\nelse:\n print(2)",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_M_05",
+      "q": "finally executes when:",
+      "opts": [
+        "always",
+        "never",
+        "error",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_M_06",
+      "q": "What is output?\ntry:\n raise Exception\nexcept:\n print(1)\nfinally:\n print(2)",
+      "opts": [
+        "1 2",
+        "2",
+        "1",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_M_07",
+      "q": "except without type catches:",
+      "opts": [
+        "all",
+        "none",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "TE_H_01",
+      "q": "What is output?\ntry:\n return_val=1\nfinally:\n return_val=2\nprint(return_val)",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_H_02",
+      "q": "What is output?\ntry:\n 1/0\nexcept Exception as e:\n print(type(e).__name__)",
+      "opts": [
+        "ZeroDivisionError",
+        "Exception",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_H_03",
+      "q": "Nested try allowed?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_H_04",
+      "q": "What is output?\ntry:\n pass\nfinally:\n print('f')",
+      "opts": [
+        "f",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "finally always runs",
+        "never runs",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "TE_H_06",
+      "q": "Exception chaining via:",
+      "opts": [
+        "raise from",
+        "raise",
+        "throw",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

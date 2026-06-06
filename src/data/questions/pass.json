@@ -1,0 +1,155 @@
+
+{
+  "easy": [
+    {
+      "id": "PS_E_01",
+      "q": "What does 'pass' do?",
+      "opts": ["Stops execution", "Does nothing", "Skips loop", "Ends program"],
+      "ans": 1
+    },
+    {
+      "id": "PS_E_02",
+      "q": "Where is pass used?",
+      "opts": ["Functions", "Loops", "Conditionals", "All"],
+      "ans": 3
+    },
+    {
+      "id": "PS_E_03",
+      "q": "Why use pass?",
+      "opts": ["Avoid error", "Stop loop", "Skip iteration", "Print output"],
+      "ans": 0
+    },
+    {
+      "id": "PS_E_04",
+      "q": "pass is a:",
+      "opts": ["Function", "Keyword", "Operator", "Variable"],
+      "ans": 1
+    },
+    {
+      "id": "PS_E_05",
+      "q": "What is output?\npass",
+      "opts": ["Error", "Nothing", "0", "None"],
+      "ans": 1
+    },
+    {
+      "id": "PS_E_06",
+      "q": "pass can be used in empty:",
+      "opts": ["loop", "function", "if", "All"],
+      "ans": 3
+    },
+    {
+      "id": "PS_E_07",
+      "q": "pass affects flow?",
+      "opts": ["Yes", "No", "Sometimes", "Only loops"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "PS_M_01",
+      "q": "What is output?\nfor i in range(2): pass\nprint(i)",
+      "opts": ["1", "2", "0", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "PS_M_02",
+      "q": "What is output?\nif True:\n pass\nprint(1)",
+      "opts": ["1", "Error", "None", "0"],
+      "ans": 0
+    },
+    {
+      "id": "PS_M_03",
+      "q": "pass is useful when:",
+      "opts": [
+        "Code incomplete",
+        "Loop ends",
+        "Condition false",
+        "Error occurs"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PS_M_04",
+      "q": "What is output?\ndef f(): pass\nprint(type(f()))",
+      "opts": ["NoneType", "int", "str", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "PS_M_05",
+      "q": "Which is true?",
+      "opts": [
+        "pass skips iteration",
+        "pass does nothing",
+        "pass exits loop",
+        "pass repeats loop"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "PS_M_06",
+      "q": "What is output?\nfor i in range(3):\n if i==1: pass\n print(i)",
+      "opts": ["0 1 2", "0 2", "1", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "PS_M_07",
+      "q": "pass avoids:",
+      "opts": ["Syntax error", "Runtime error", "Logical error", "All"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "PS_H_01",
+      "q": "What is output?\nclass A: pass\na=A()\nprint(type(a))",
+      "opts": ["<class '__main__.A'>", "A", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "PS_H_02",
+      "q": "What is output?\nif False:\n pass\nelse:\n print(2)",
+      "opts": ["2", "Nothing", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "PS_H_03",
+      "q": "pass in loop means:",
+      "opts": [
+        "Skip iteration",
+        "Do nothing but continue",
+        "Exit loop",
+        "Restart loop"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "PS_H_04",
+      "q": "What is output?\ndef f(): pass\nprint(f())",
+      "opts": ["None", "0", "Error", "pass"],
+      "ans": 0
+    },
+    {
+      "id": "PS_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "pass generates bytecode",
+        "pass skipped entirely",
+        "pass raises error",
+        "pass exits function"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PS_H_06",
+      "q": "pass vs continue:",
+      "opts": [
+        "Same",
+        "pass does nothing, continue skips",
+        "continue exits loop",
+        "pass exits loop"
+      ],
+      "ans": 1
+    }
+  ]
+}
+

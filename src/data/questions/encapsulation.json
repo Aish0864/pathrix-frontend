@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "EN_E_01",
+      "q": "Encapsulation means:",
+      "opts": [
+        "data hiding",
+        "loop",
+        "class",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_E_02",
+      "q": "Access modifiers include:",
+      "opts": [
+        "public/private",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_E_03",
+      "q": "Private variable prefix:",
+      "opts": [
+        "__",
+        "_",
+        "##",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_E_04",
+      "q": "Encapsulation improves:",
+      "opts": [
+        "security",
+        "loop",
+        "speed",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_E_05",
+      "q": "Getter used for:",
+      "opts": [
+        "access",
+        "modify",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_E_06",
+      "q": "Setter used for:",
+      "opts": [
+        "modify",
+        "access",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_E_07",
+      "q": "Encapsulation bundles:",
+      "opts": [
+        "data+methods",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "EN_M_01",
+      "q": "What is output?\nclass A:\n def __init__(self): self.__x=5\na=A();print(a._A__x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_M_02",
+      "q": "Private access outside class?",
+      "opts": [
+        "no direct",
+        "yes",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_M_03",
+      "q": "Name mangling uses:",
+      "opts": [
+        "_Class__var",
+        "__var",
+        "var__",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_M_04",
+      "q": "What is output?\nclass A:\n def __init__(self): self.x=5\na=A();print(a.x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_M_05",
+      "q": "Protected variable prefix:",
+      "opts": [
+        "_",
+        "__",
+        "##",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_M_06",
+      "q": "Encapsulation hides:",
+      "opts": [
+        "implementation",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_M_07",
+      "q": "Which is true?",
+      "opts": [
+        "private via __",
+        "no private",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "EN_H_01",
+      "q": "What is output?\nclass A:\n def __init__(self): self.__x=5\n def get(self): return self.__x\na=A();print(a.get())",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_H_02",
+      "q": "What is output?\nclass A:\n def __init__(self): self.__x=5\na=A();print(hasattr(a,'__x'))",
+      "opts": [
+        "False",
+        "True",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_H_03",
+      "q": "Encapsulation enforces:",
+      "opts": [
+        "data control",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_H_04",
+      "q": "What is output?\nclass A:\n def __init__(self): self._x=5\na=A();print(a._x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EN_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "_ weak private",
+        "__ strong private",
+        "both",
+        "none"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "EN_H_06",
+      "q": "Getter/setter ensures:",
+      "opts": [
+        "controlled access",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

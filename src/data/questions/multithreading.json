@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "MT_E_01",
+      "q": "Multithreading means:",
+      "opts": [
+        "multiple threads",
+        "multiple programs",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_E_02",
+      "q": "Thread runs in:",
+      "opts": [
+        "same process",
+        "different process",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_E_03",
+      "q": "Module used:",
+      "opts": [
+        "threading",
+        "multiprocessing",
+        "asyncio",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_E_04",
+      "q": "Threads share:",
+      "opts": [
+        "memory",
+        "cpu",
+        "disk",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_E_05",
+      "q": "Thread start method:",
+      "opts": [
+        "start()",
+        "run()",
+        "exec()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_E_06",
+      "q": "Join used for:",
+      "opts": [
+        "wait",
+        "start",
+        "stop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_E_07",
+      "q": "GIL affects:",
+      "opts": [
+        "threads",
+        "processes",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "MT_M_01",
+      "q": "What is output?\nimport threading\nprint(threading.active_count()>=1)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_M_02",
+      "q": "Thread function passed to:",
+      "opts": [
+        "Thread(target=)",
+        "run()",
+        "start()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_M_03",
+      "q": "Race condition occurs when:",
+      "opts": [
+        "shared data",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_M_04",
+      "q": "Lock used for:",
+      "opts": [
+        "synchronization",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_M_05",
+      "q": "What is output?\nimport threading\nprint(isinstance(threading.Lock(),object))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_M_06",
+      "q": "Daemon thread ends when:",
+      "opts": [
+        "main ends",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_M_07",
+      "q": "Thread-safe means:",
+      "opts": [
+        "no race",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "MT_H_01",
+      "q": "GIL allows:",
+      "opts": [
+        "one thread at a time",
+        "many",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_H_02",
+      "q": "CPU-bound better with:",
+      "opts": [
+        "multiprocessing",
+        "threading",
+        "async",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_H_03",
+      "q": "I/O-bound better with:",
+      "opts": [
+        "threading",
+        "multiprocessing",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_H_04",
+      "q": "Deadlock occurs when:",
+      "opts": [
+        "circular wait",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "threads share memory",
+        "not share",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MT_H_06",
+      "q": "Thread identity via:",
+      "opts": [
+        "ident",
+        "pid",
+        "tid()",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

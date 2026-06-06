@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "AS_E_01",
+      "q": "Async means:",
+      "opts": [
+        "non-blocking",
+        "blocking",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_E_02",
+      "q": "Keyword for async func:",
+      "opts": [
+        "async",
+        "def",
+        "await",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_E_03",
+      "q": "Await used in:",
+      "opts": [
+        "async func",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_E_04",
+      "q": "Async module:",
+      "opts": [
+        "asyncio",
+        "threading",
+        "multiprocessing",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_E_05",
+      "q": "Event loop manages:",
+      "opts": [
+        "tasks",
+        "threads",
+        "processes",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_E_06",
+      "q": "Coroutine is:",
+      "opts": [
+        "async func",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_E_07",
+      "q": "Async improves:",
+      "opts": [
+        "I/O tasks",
+        "CPU tasks",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "AS_M_01",
+      "q": "What is output?\nimport asyncio\nprint(asyncio.get_event_loop() is not None)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_M_02",
+      "q": "Await pauses:",
+      "opts": [
+        "coroutine",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_M_03",
+      "q": "Task created via:",
+      "opts": [
+        "create_task",
+        "thread",
+        "process",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_M_04",
+      "q": "What is output?\nimport asyncio\nasync def f(): return 1\nprint(asyncio.run(f()))",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_M_05",
+      "q": "Concurrency via:",
+      "opts": [
+        "event loop",
+        "threads",
+        "process",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_M_06",
+      "q": "What is output?\nasync def f(): return 1\nprint(type(f()))",
+      "opts": [
+        "coroutine",
+        "int",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_M_07",
+      "q": "Async suitable for:",
+      "opts": [
+        "I/O bound",
+        "CPU bound",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "AS_H_01",
+      "q": "What is output?\nimport asyncio\nasync def f(): return 1\nc=f();print(hasattr(c,'__await__'))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_H_02",
+      "q": "Awaitable includes:",
+      "opts": [
+        "coroutine",
+        "future",
+        "task",
+        "all"
+      ],
+      "ans": 3
+    },
+    {
+      "id": "AS_H_03",
+      "q": "What is output?\nimport asyncio\nasync def f(): return 1\nasync def g(): return await f()\nprint(asyncio.run(g()))",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_H_04",
+      "q": "Event loop runs via:",
+      "opts": [
+        "run",
+        "start",
+        "exec",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "single-threaded",
+        "multi-thread",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AS_H_06",
+      "q": "Async avoids:",
+      "opts": [
+        "blocking",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+
+{
+  "easy": [
+    {
+      "id": "EL_E_01",
+      "q": "What does 'elif' stand for?",
+      "opts": ["Else If", "End If", "Else Loop", "Exit If"],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_02",
+      "q": "Where is 'elif' used?",
+      "opts": ["Loops", "Functions", "Conditional statements", "Classes"],
+      "ans": 2
+    },
+    {
+      "id": "EL_E_03",
+      "q": "Which keyword comes before 'elif'?",
+      "opts": ["if", "else", "for", "while"],
+      "ans": 0
+    },
+    {
+      "id": "EL_E_04",
+      "q": "Which keyword can follow 'elif'?",
+      "opts": ["if", "else", "for", "def"],
+      "ans": 1
+    },
+    {
+      "id": "EL_E_05",
+      "q": "How many elif can be used?",
+      "opts": ["One", "Two", "Unlimited", "None"],
+      "ans": 2
+    },
+    {
+      "id": "EL_E_06",
+      "q": "Is elif mandatory?",
+      "opts": ["Yes", "No", "Only in loops", "Only in functions"],
+      "ans": 1
+    },
+    {
+      "id": "EL_E_07",
+      "q": "Which is correct syntax?",
+      "opts": ["elif x > 5:", "elif(x > 5)", "elif x > 5", "elif: x > 5"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "EL_M_01",
+      "q": "What is output?\nx = 5\nif x > 10:\n print(1)\nelif x > 3:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "EL_M_02",
+      "q": "What is output?\nx = 2\nif x > 3:\n print(1)\nelif x > 1:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "EL_M_03",
+      "q": "What is output?\nx = 0\nif x:\n print(1)\nelif x == 0:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "EL_M_04",
+      "q": "Which block executes?",
+      "opts": [
+        "All true conditions",
+        "First true condition",
+        "Last true condition",
+        "None"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "EL_M_05",
+      "q": "What is output?\nx = 5\nif x < 3:\n print(1)\nelif x < 4:\n print(2)\nelif x < 6:\n print(3)",
+      "opts": ["1", "2", "3", "None"],
+      "ans": 2
+    },
+    {
+      "id": "EL_M_06",
+      "q": "Which is valid?",
+      "opts": [
+        "elif without if",
+        "elif after else",
+        "multiple elif allowed",
+        "elif in loop only"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "EL_M_07",
+      "q": "What is output?\nx = 10\nif x > 5:\n print(1)\nelif x > 3:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "EL_H_01",
+      "q": "What is output?\nx = 5\nif x > 3:\n print(1)\nelif x > 2:\n print(2)",
+      "opts": ["1", "2", "Both", "None"],
+      "ans": 0
+    },
+    {
+      "id": "EL_H_02",
+      "q": "What is output?\nx = None\nif x:\n print(1)\nelif not x:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "EL_H_03",
+      "q": "What is output?\nx = ''\nif x:\n print(1)\nelif x == '':\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "EL_H_04",
+      "q": "What is output?\nx = 5\nif x > 10:\n print(1)\nelif x > 3:\n print(2)\nelif x > 1:\n print(3)",
+      "opts": ["1", "2", "3", "None"],
+      "ans": 1
+    },
+    {
+      "id": "EL_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "All elif run",
+        "Only one branch runs",
+        "elif always runs",
+        "else must exist"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "EL_H_06",
+      "q": "What is output?\nx = 0\nif x:\n print(1)\nelif x == 0:\n print(2)\nelse:\n print(3)",
+      "opts": ["1", "2", "3", "None"],
+      "ans": 1
+    }
+  ]
+}
+

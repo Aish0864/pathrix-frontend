@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "CL_E_01",
+      "q": "Class defines:",
+      "opts": [
+        "blueprint",
+        "loop",
+        "variable",
+        "function"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_E_02",
+      "q": "Object is:",
+      "opts": [
+        "instance",
+        "loop",
+        "function",
+        "variable"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_E_03",
+      "q": "Keyword for class:",
+      "opts": [
+        "class",
+        "def",
+        "func",
+        "object"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_E_04",
+      "q": "Attributes are:",
+      "opts": [
+        "data",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_E_05",
+      "q": "Methods are:",
+      "opts": [
+        "functions",
+        "variables",
+        "loops",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_E_06",
+      "q": "Self refers to:",
+      "opts": [
+        "instance",
+        "class",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_E_07",
+      "q": "Class instance created by:",
+      "opts": [
+        "calling class",
+        "loop",
+        "function",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "CL_M_01",
+      "q": "What is output?\nclass A:\n def f(self):return 1\na=A();print(a.f())",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_M_02",
+      "q": "What is output?\nclass A:\n x=5\na=A();print(a.x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_M_03",
+      "q": "Instance variable defined in:",
+      "opts": [
+        "__init__",
+        "class",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_M_04",
+      "q": "What is output?\nclass A:\n def __init__(self): self.x=2\na=A();print(a.x)",
+      "opts": [
+        "2",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_M_05",
+      "q": "Method must have:",
+      "opts": [
+        "self",
+        "class",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_M_06",
+      "q": "What is output?\nclass A:\n pass\na=A();print(type(a))",
+      "opts": [
+        "<class '__main__.A'>",
+        "A",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_M_07",
+      "q": "Class variables shared across:",
+      "opts": [
+        "instances",
+        "functions",
+        "loops",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "CL_H_01",
+      "q": "What is output?\nclass A:\n x=5\na=A();b=A();b.x=10\nprint(a.x)",
+      "opts": [
+        "5",
+        "10",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_H_02",
+      "q": "What is output?\nclass A:\n x=5\nA.x=10\na=A();print(a.x)",
+      "opts": [
+        "10",
+        "5",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_H_03",
+      "q": "Which is true?",
+      "opts": [
+        "instance overrides class var",
+        "class overrides instance",
+        "same",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_H_04",
+      "q": "What is output?\nclass A:\n def __init__(self,x): self.x=x\na=A(3);print(a.x)",
+      "opts": [
+        "3",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_H_05",
+      "q": "Method binding happens at:",
+      "opts": [
+        "runtime",
+        "compile",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CL_H_06",
+      "q": "Objects stored as:",
+      "opts": [
+        "references",
+        "values",
+        "constants",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

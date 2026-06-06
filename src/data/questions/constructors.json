@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "CN_E_01",
+      "q": "Constructor method name:",
+      "opts": [
+        "__init__",
+        "init",
+        "constructor",
+        "start"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_E_02",
+      "q": "Constructor runs on:",
+      "opts": [
+        "object creation",
+        "loop",
+        "function",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_E_03",
+      "q": "Used to:",
+      "opts": [
+        "initialize object",
+        "loop",
+        "function",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_E_04",
+      "q": "Constructor defined using:",
+      "opts": [
+        "def",
+        "class",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_E_05",
+      "q": "self refers to:",
+      "opts": [
+        "instance",
+        "class",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_E_06",
+      "q": "Constructor can take:",
+      "opts": [
+        "args",
+        "none",
+        "loop",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_E_07",
+      "q": "Constructor returns:",
+      "opts": [
+        "None",
+        "value",
+        "error",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "CN_M_01",
+      "q": "What is output?\nclass A:\n def __init__(self): self.x=5\na=A();print(a.x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_M_02",
+      "q": "What is output?\nclass A:\n def __init__(self,x): self.x=x\na=A(3);print(a.x)",
+      "opts": [
+        "3",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_M_03",
+      "q": "Constructor called automatically?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_M_04",
+      "q": "Multiple constructors in Python?",
+      "opts": [
+        "No",
+        "Yes",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_M_05",
+      "q": "What is output?\nclass A:\n def __init__(self): pass\na=A();print(type(a))",
+      "opts": [
+        "<class '__main__.A'>",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_M_06",
+      "q": "Constructor overloading via:",
+      "opts": [
+        "default args",
+        "loops",
+        "classes",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_M_07",
+      "q": "What is output?\nclass A:\n def __init__(self,x=2): self.x=x\na=A();print(a.x)",
+      "opts": [
+        "2",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "CN_H_01",
+      "q": "What is output?\nclass A:\n def __init__(self,x): self.x=x\na=A(3);b=A(4);print(a.x+b.x)",
+      "opts": [
+        "7",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_H_02",
+      "q": "Constructor returns explicitly?",
+      "opts": [
+        "No",
+        "Yes",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_H_03",
+      "q": "What is output?\nclass A:\n def __init__(self): self.x=5\na=A();a.__init__();print(a.x)",
+      "opts": [
+        "5",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_H_04",
+      "q": "Init method type:",
+      "opts": [
+        "instance method",
+        "class method",
+        "static",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "one init per class",
+        "many",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CN_H_06",
+      "q": "What is output?\nclass A:\n def __init__(self,x=1): self.x=x\na=A(2);print(a.x)",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    }
+  ]
+}

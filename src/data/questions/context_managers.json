@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "CM_E_01",
+      "q": "Context manager used with:",
+      "opts": [
+        "with",
+        "try",
+        "loop",
+        "def"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_02",
+      "q": "Used for:",
+      "opts": [
+        "resource handling",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_03",
+      "q": "File open best via:",
+      "opts": [
+        "with",
+        "open only",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_04",
+      "q": "Auto close happens?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_05",
+      "q": "Method pair:",
+      "opts": [
+        "__enter__/__exit__",
+        "__init__",
+        "__str__",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_06",
+      "q": "with ensures:",
+      "opts": [
+        "cleanup",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_E_07",
+      "q": "Context manager handles:",
+      "opts": [
+        "resources",
+        "loops",
+        "vars",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "CM_M_01",
+      "q": "What is output?\nwith open('t.txt','w') as f: f.write('a')\nwith open('t.txt') as f: print(f.read())",
+      "opts": [
+        "a",
+        "Error",
+        "None",
+        ""
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_02",
+      "q": "__enter__ returns:",
+      "opts": [
+        "resource",
+        "None",
+        "Error",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_03",
+      "q": "__exit__ handles:",
+      "opts": [
+        "exceptions",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_04",
+      "q": "Contextlib module provides:",
+      "opts": [
+        "helpers",
+        "loops",
+        "vars",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_05",
+      "q": "What is output?\nfrom contextlib import nullcontext\nwith nullcontext(): print(1)",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_06",
+      "q": "with reduces:",
+      "opts": [
+        "boilerplate",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_M_07",
+      "q": "Exception suppressed if __exit__ returns:",
+      "opts": [
+        "True",
+        "False",
+        "None",
+        "Error"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "CM_H_01",
+      "q": "Custom CM requires:",
+      "opts": [
+        "__enter__/__exit__",
+        "init",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_02",
+      "q": "What is output?\nclass A:\n def __enter__(self): return 1\n def __exit__(self,a,b,c): pass\nwith A() as x: print(x)",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_03",
+      "q": "Nested with allowed?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_04",
+      "q": "Contextlib decorator:",
+      "opts": [
+        "contextmanager",
+        "wraps",
+        "dataclass",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "with handles cleanup",
+        "no cleanup",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CM_H_06",
+      "q": "Exit args represent:",
+      "opts": [
+        "exc info",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

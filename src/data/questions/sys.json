@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "SY_E_01",
+      "q": "sys module used for:",
+      "opts": [
+        "system-specific params",
+        "math",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_E_02",
+      "q": "Import via:",
+      "opts": [
+        "import sys",
+        "use sys",
+        "load sys",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_E_03",
+      "q": "Command-line args in:",
+      "opts": [
+        "sys.argv",
+        "args",
+        "params",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_E_04",
+      "q": "Exit program via:",
+      "opts": [
+        "sys.exit",
+        "exit",
+        "quit",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_E_05",
+      "q": "Python version via:",
+      "opts": [
+        "sys.version",
+        "version",
+        "pyver",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_E_06",
+      "q": "Path list in:",
+      "opts": [
+        "sys.path",
+        "path",
+        "dir",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_E_07",
+      "q": "stdin accessed via:",
+      "opts": [
+        "sys.stdin",
+        "input",
+        "read",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "SY_M_01",
+      "q": "What is output?\nimport sys\nprint(len(sys.argv)>=1)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_M_02",
+      "q": "Max recursion via:",
+      "opts": [
+        "sys.getrecursionlimit",
+        "recursion",
+        "limit",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_M_03",
+      "q": "Set recursion via:",
+      "opts": [
+        "sys.setrecursionlimit",
+        "set",
+        "limit",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_M_04",
+      "q": "What is output?\nimport sys\nprint(isinstance(sys.path,list))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_M_05",
+      "q": "stderr used for:",
+      "opts": [
+        "errors",
+        "input",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_M_06",
+      "q": "What is output?\nimport sys\nprint(hasattr(sys,'exit'))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_M_07",
+      "q": "sys module interacts with:",
+      "opts": [
+        "interpreter",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "SY_H_01",
+      "q": "What is output?\nimport sys\nprint(type(sys.stdin).__name__)",
+      "opts": [
+        "TextIOWrapper",
+        "str",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_H_02",
+      "q": "sys.modules stores:",
+      "opts": [
+        "loaded modules",
+        "paths",
+        "vars",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_H_03",
+      "q": "What is output?\nimport sys\nprint('math' in sys.modules)",
+      "opts": [
+        "True/False",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "sys is built-in",
+        "external",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_H_05",
+      "q": "Platform info via:",
+      "opts": [
+        "sys.platform",
+        "os.platform",
+        "platform",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "SY_H_06",
+      "q": "sys.exit raises:",
+      "opts": [
+        "SystemExit",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    }
+  ]
+}

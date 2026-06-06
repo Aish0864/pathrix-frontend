@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "EH_E_01",
+      "q": "Exception is:",
+      "opts": [
+        "runtime error",
+        "loop",
+        "class",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_E_02",
+      "q": "Handled using:",
+      "opts": [
+        "try",
+        "if",
+        "loop",
+        "def"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_E_03",
+      "q": "Exception stops:",
+      "opts": [
+        "program",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_E_04",
+      "q": "Common exception:",
+      "opts": [
+        "ZeroDivisionError",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_E_05",
+      "q": "Handling improves:",
+      "opts": [
+        "stability",
+        "loop",
+        "speed",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_E_06",
+      "q": "Exception occurs at:",
+      "opts": [
+        "runtime",
+        "compile",
+        "design",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_E_07",
+      "q": "Error vs Exception:",
+      "opts": [
+        "exception manageable",
+        "same",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "EH_M_01",
+      "q": "What is output?\ntry:\n 1/0\nexcept:\n print('error')",
+      "opts": [
+        "error",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_M_02",
+      "q": "Multiple except allowed?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_M_03",
+      "q": "Specific exception catches:",
+      "opts": [
+        "type",
+        "all",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_M_04",
+      "q": "What is output?\ntry:\n print(1)\nexcept:\n print(2)",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_M_05",
+      "q": "finally executes:",
+      "opts": [
+        "always",
+        "never",
+        "error",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_M_06",
+      "q": "What is output?\ntry:\n 1/1\nexcept:\n print(2)\nelse:\n print(3)",
+      "opts": [
+        "3",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_M_07",
+      "q": "Raise keyword used for:",
+      "opts": [
+        "custom exception",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "EH_H_01",
+      "q": "What is output?\ntry:\n 1/0\nfinally:\n print('done')",
+      "opts": [
+        "done",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_H_02",
+      "q": "Exception hierarchy root:",
+      "opts": [
+        "BaseException",
+        "Exception",
+        "Error",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_H_03",
+      "q": "What is output?\ntry:\n pass\nexcept:\n print(1)\nelse:\n print(2)",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_H_04",
+      "q": "finally runs if return?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_H_05",
+      "q": "What is output?\ntry:\n raise ValueError\nexcept ValueError:\n print('v')",
+      "opts": [
+        "v",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "EH_H_06",
+      "q": "Custom exception inherits from:",
+      "opts": [
+        "Exception",
+        "BaseException",
+        "Error",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

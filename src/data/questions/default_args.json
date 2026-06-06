@@ -1,0 +1,153 @@
+{
+  "easy": [
+    {
+      "id": "DA_E_01",
+      "q": "Default arguments have:",
+      "opts": ["initial values", "no values", "only numbers", "only strings"],
+      "ans": 0
+    },
+    {
+      "id": "DA_E_02",
+      "q": "When used?",
+      "opts": ["definition", "call", "loop", "class"],
+      "ans": 0
+    },
+    {
+      "id": "DA_E_03",
+      "q": "Which is valid?",
+      "opts": ["def f(x=1):", "def f(x):", "def f(=1):", "def f(x:)"],
+      "ans": 0
+    },
+    {
+      "id": "DA_E_04",
+      "q": "Default args are used if:",
+      "opts": ["value passed", "no value passed", "error", "loop"],
+      "ans": 1
+    },
+    {
+      "id": "DA_E_05",
+      "q": "Default args must be:",
+      "opts": ["first", "last", "middle", "anywhere"],
+      "ans": 1
+    },
+    {
+      "id": "DA_E_06",
+      "q": "Default value type?",
+      "opts": ["any", "int only", "str only", "bool only"],
+      "ans": 0
+    },
+    {
+      "id": "DA_E_07",
+      "q": "Which is correct?",
+      "opts": ["f(1)", "f()", "both", "none"],
+      "ans": 2
+    }
+  ],
+  "medium": [
+    {
+      "id": "DA_M_01",
+      "q": "What is output?\ndef f(x=2): return x\nprint(f())",
+      "opts": ["2", "None", "Error", "0"],
+      "ans": 0
+    },
+    {
+      "id": "DA_M_02",
+      "q": "What is output?\ndef f(x=2): return x\nprint(f(5))",
+      "opts": ["5", "2", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DA_M_03",
+      "q": "What is output?\ndef f(x,y=2): return x+y\nprint(f(3))",
+      "opts": ["5", "3", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DA_M_04",
+      "q": "What is output?\ndef f(x=2,y=3): return x*y\nprint(f())",
+      "opts": ["6", "5", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DA_M_05",
+      "q": "Which is invalid?",
+      "opts": [
+        "def f(x=1,y):",
+        "def f(x,y=1):",
+        "def f(x=1,y=2):",
+        "def f(x,y):"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DA_M_06",
+      "q": "Default args evaluated at:",
+      "opts": ["definition time", "call time", "runtime", "loop"],
+      "ans": 0
+    },
+    {
+      "id": "DA_M_07",
+      "q": "Which is true?",
+      "opts": [
+        "default always used",
+        "default overridden by call",
+        "default ignored",
+        "default causes error"
+      ],
+      "ans": 1
+    }
+  ],
+  "hard": [
+    {
+      "id": "DA_H_01",
+      "q": "What is output?\ndef f(x=[]): x.append(1); return x\nprint(f()); print(f())",
+      "opts": ["[1] [1,1]", "[1] [1]", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DA_H_02",
+      "q": "Why above behavior?",
+      "opts": [
+        "mutable default reused",
+        "function error",
+        "new list created",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DA_H_03",
+      "q": "What is output?\ndef f(x=None): return x\nprint(f())",
+      "opts": ["None", "0", "Error", "[]"],
+      "ans": 0
+    },
+    {
+      "id": "DA_H_04",
+      "q": "Best practice for mutable default?",
+      "opts": [
+        "use None",
+        "use []",
+        "use {}",
+        "avoid function"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DA_H_05",
+      "q": "What is output?\ndef f(x=1): return x\nprint(f(x=5))",
+      "opts": ["5", "1", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DA_H_06",
+      "q": "Default args stored in:",
+      "opts": [
+        "__defaults__",
+        "__args__",
+        "__params__",
+        "__vars__"
+      ],
+      "ans": 0
+    }
+  ]
+}

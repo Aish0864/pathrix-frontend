@@ -1,0 +1,138 @@
+{
+  "easy": [
+    {
+      "id": "IF_E_01",
+      "q": "Which keyword is used for condition?",
+      "opts": ["if", "for", "while", "def"],
+      "ans": 0
+    },
+    {
+      "id": "IF_E_02",
+      "q": "Which keyword handles alternative case?",
+      "opts": ["else", "elif", "for", "break"],
+      "ans": 0
+    },
+    {
+      "id": "IF_E_03",
+      "q": "What is output?\nif True:\n print(1)",
+      "opts": ["1", "0", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IF_E_04",
+      "q": "What is output?\nif False:\n print(1)",
+      "opts": ["1", "0", "Nothing", "Error"],
+      "ans": 2
+    },
+    {
+      "id": "IF_E_05",
+      "q": "Which is valid?",
+      "opts": ["if x > 5:", "if (x > 5)", "if x > 5", "if x > 5 then"],
+      "ans": 0
+    },
+    {
+      "id": "IF_E_06",
+      "q": "Indentation is:",
+      "opts": ["Optional", "Mandatory", "Ignored", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "IF_E_07",
+      "q": "Which executes if condition false?",
+      "opts": ["if", "else", "for", "while"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "IF_M_01",
+      "q": "What is output?\nx = 5\nif x > 3:\n print(1)\nelse:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IF_M_02",
+      "q": "What is output?\nx = 2\nif x > 3:\n print(1)\nelse:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_M_03",
+      "q": "Which keyword handles multiple conditions?",
+      "opts": ["else", "elif", "for", "break"],
+      "ans": 1
+    },
+    {
+      "id": "IF_M_04",
+      "q": "What is output?\nx = 5\nif x > 10:\n print(1)\nelif x > 3:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_M_05",
+      "q": "What is output?\nif 0:\n print(1)\nelse:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_M_06",
+      "q": "What is output?\nif 1:\n print(1)",
+      "opts": ["1", "0", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IF_M_07",
+      "q": "Which is correct?",
+      "opts": [
+        "elif must come before if",
+        "else can have condition",
+        "elif follows if",
+        "if cannot be nested"
+      ],
+      "ans": 2
+    }
+  ],
+  "hard": [
+    {
+      "id": "IF_H_01",
+      "q": "What is output?\nx = 5\nif x > 3:\n if x < 10:\n  print(1)",
+      "opts": ["1", "0", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "IF_H_02",
+      "q": "What is output?\nx = 5\nif x > 10:\n print(1)\nelif x > 3:\n print(2)\nelse:\n print(3)",
+      "opts": ["1", "2", "3", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_H_03",
+      "q": "What is output?\nif []:\n print(1)\nelse:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_H_04",
+      "q": "What is output?\nif '':\n print(1)\nelse:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_H_05",
+      "q": "What is output?\nx = None\nif x:\n print(1)\nelse:\n print(2)",
+      "opts": ["1", "2", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "IF_H_06",
+      "q": "Which is true?",
+      "opts": [
+        "if always needs else",
+        "elif can exist without if",
+        "else is optional",
+        "if cannot be nested"
+      ],
+      "ans": 2
+    }
+  ]
+}

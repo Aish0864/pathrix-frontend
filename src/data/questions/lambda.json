@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "LM_E_01",
+      "q": "Lambda creates:",
+      "opts": [
+        "function",
+        "loop",
+        "class",
+        "variable"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_E_02",
+      "q": "Lambda is:",
+      "opts": [
+        "named",
+        "anonymous",
+        "loop",
+        "class"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "LM_E_03",
+      "q": "Syntax uses:",
+      "opts": [
+        "lambda",
+        "def",
+        "func",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_E_04",
+      "q": "Lambda returns:",
+      "opts": [
+        "value",
+        "None",
+        "error",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_E_05",
+      "q": "Lambda supports:",
+      "opts": [
+        "single expression",
+        "multiple lines",
+        "loops",
+        "classes"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_E_06",
+      "q": "Which is lambda?",
+      "opts": [
+        "lambda x:x+1",
+        "def f()",
+        "x=1",
+        "for"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_E_07",
+      "q": "Lambda used for:",
+      "opts": [
+        "short functions",
+        "loops",
+        "classes",
+        "variables"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "LM_M_01",
+      "q": "What is output?\nf=lambda x:x*2\nprint(f(3))",
+      "opts": [
+        "6",
+        "3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_M_02",
+      "q": "What is output?\nprint((lambda x:x+1)(2))",
+      "opts": [
+        "3",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_M_03",
+      "q": "Lambda used in:",
+      "opts": [
+        "map",
+        "filter",
+        "reduce",
+        "all"
+      ],
+      "ans": 3
+    },
+    {
+      "id": "LM_M_04",
+      "q": "What is output?\nf=lambda x,y:x+y\nprint(f(2,3))",
+      "opts": [
+        "5",
+        "23",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_M_05",
+      "q": "Lambda has return?",
+      "opts": [
+        "implicit",
+        "explicit",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_M_06",
+      "q": "What is output?\nl=[1,2]\nprint(list(map(lambda x:x*2,l)))",
+      "opts": [
+        "[2,4]",
+        "[1,2]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_M_07",
+      "q": "Lambda cannot have:",
+      "opts": [
+        "statements",
+        "expression",
+        "args",
+        "return"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "LM_H_01",
+      "q": "What is output?\nf=lambda x:lambda y:x+y\nprint(f(2)(3))",
+      "opts": [
+        "5",
+        "6",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_H_02",
+      "q": "What is output?\nl=[1,2,3]\nprint(list(filter(lambda x:x>1,l)))",
+      "opts": [
+        "[2,3]",
+        "[1]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_H_03",
+      "q": "Lambda closures capture:",
+      "opts": [
+        "variables",
+        "functions",
+        "loops",
+        "classes"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_H_04",
+      "q": "What is output?\nf=lambda x:x if x>0 else -x\nprint(f(-3))",
+      "opts": [
+        "3",
+        "-3",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_H_05",
+      "q": "Lambda is stored as:",
+      "opts": [
+        "function object",
+        "int",
+        "str",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "LM_H_06",
+      "q": "Which is true?",
+      "opts": [
+        "lambda multi-line",
+        "lambda single expr",
+        "lambda no return",
+        "lambda only int"
+      ],
+      "ans": 1
+    }
+  ]
+}

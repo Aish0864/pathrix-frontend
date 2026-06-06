@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "GN_E_01",
+      "q": "Generator uses:",
+      "opts": [
+        "yield",
+        "return",
+        "loop",
+        "class"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_E_02",
+      "q": "Generator returns:",
+      "opts": [
+        "iterator",
+        "list",
+        "tuple",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_E_03",
+      "q": "Yield pauses:",
+      "opts": [
+        "function",
+        "loop",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_E_04",
+      "q": "Generator memory:",
+      "opts": [
+        "efficient",
+        "high",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_E_05",
+      "q": "Generator syntax:",
+      "opts": [
+        "def+yield",
+        "def+return",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_E_06",
+      "q": "Generator runs when:",
+      "opts": [
+        "iterated",
+        "defined",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_E_07",
+      "q": "Generator stores:",
+      "opts": [
+        "state",
+        "none",
+        "loop",
+        "class"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "GN_M_01",
+      "q": "What is output?\ndef f(): yield 1\nprint(list(f()))",
+      "opts": [
+        "[1]",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_M_02",
+      "q": "What is output?\ndef f(): yield 1; yield 2\nprint(list(f()))",
+      "opts": [
+        "[1,2]",
+        "[1]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_M_03",
+      "q": "Generator expression uses:",
+      "opts": [
+        "()",
+        "[]",
+        "{}",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_M_04",
+      "q": "What is output?\ng=(x for x in [1,2])\nprint(next(g))",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_M_05",
+      "q": "Yield vs return:",
+      "opts": [
+        "yield multiple",
+        "return once",
+        "both",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_M_06",
+      "q": "What is output?\ndef f(): yield from [1,2]\nprint(list(f()))",
+      "opts": [
+        "[1,2]",
+        "Error",
+        "None",
+        "[]"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_M_07",
+      "q": "Generator stops via:",
+      "opts": [
+        "StopIteration",
+        "Error",
+        "None",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "GN_H_01",
+      "q": "What is output?\ndef f(): yield 1; yield 2\ng=f(); next(g); print(next(g))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_H_02",
+      "q": "Generator retains:",
+      "opts": [
+        "state",
+        "none",
+        "loop",
+        "class"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_H_03",
+      "q": "What is output?\ndef f(): yield 1\ng=f(); print(list(g)); print(list(g))",
+      "opts": [
+        "[1] []",
+        "[1] [1]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_H_04",
+      "q": "Send value via:",
+      "opts": [
+        "send()",
+        "next()",
+        "iter()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "lazy eval",
+        "eager",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "GN_H_06",
+      "q": "Yield from used for:",
+      "opts": [
+        "delegation",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "DC_E_01",
+      "q": "Decorator is:",
+      "opts": [
+        "function wrapper",
+        "loop",
+        "class",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_E_02",
+      "q": "Syntax uses:",
+      "opts": [
+        "@",
+        "def",
+        "class",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_E_03",
+      "q": "Decorator modifies:",
+      "opts": [
+        "function behavior",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_E_04",
+      "q": "Multiple decorators allowed?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_E_05",
+      "q": "Decorator returns:",
+      "opts": [
+        "function",
+        "value",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_E_06",
+      "q": "Decorator applied at:",
+      "opts": [
+        "definition",
+        "call",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_E_07",
+      "q": "Common use:",
+      "opts": [
+        "logging",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "DC_M_01",
+      "q": "What is output?\ndef d(f):\n def w(): return 2\n return w\n@d\ndef f(): return 1\nprint(f())",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_02",
+      "q": "Decorator wraps via:",
+      "opts": [
+        "inner function",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_03",
+      "q": "What is output?\ndef d(f):\n def w(): return f()+1\n return w\n@d\ndef f(): return 1\nprint(f())",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_04",
+      "q": "Decorator with args uses:",
+      "opts": [
+        "*args",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_05",
+      "q": "What is output?\ndef d(f):\n def w(x): return f(x)+1\n return w\n@d\ndef f(x): return x\nprint(f(2))",
+      "opts": [
+        "3",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_06",
+      "q": "functools.wraps used for:",
+      "opts": [
+        "metadata",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_07",
+      "q": "Stacked decorators apply:",
+      "opts": [
+        "bottom-up",
+        "top-down",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "DC_H_01",
+      "q": "What is output?\ndef d1(f):\n def w(): return f()+1\n return w\ndef d2(f):\n def w(): return f()*2\n return w\n@d1\n@d2\ndef f(): return 2\nprint(f())",
+      "opts": [
+        "5",
+        "6",
+        "4",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_02",
+      "q": "Decorator closure captures:",
+      "opts": [
+        "function",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_03",
+      "q": "What is output?\ndef d(f):\n def w(): return 'x'\n return w\n@d\ndef f(): return 'y'\nprint(f())",
+      "opts": [
+        "x",
+        "y",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_04",
+      "q": "Class decorator applies to:",
+      "opts": [
+        "class",
+        "function",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "decorators chain",
+        "no chain",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_06",
+      "q": "Decorator returns must be:",
+      "opts": [
+        "callable",
+        "int",
+        "str",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

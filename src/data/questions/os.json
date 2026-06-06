@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "OS_E_01",
+      "q": "OS module used for:",
+      "opts": [
+        "system ops",
+        "math",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_E_02",
+      "q": "Import via:",
+      "opts": [
+        "import os",
+        "use os",
+        "load os",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_E_03",
+      "q": "Get cwd:",
+      "opts": [
+        "getcwd",
+        "cwd",
+        "dir",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_E_04",
+      "q": "List files:",
+      "opts": [
+        "listdir",
+        "ls",
+        "dir",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_E_05",
+      "q": "Make dir:",
+      "opts": [
+        "mkdir",
+        "create",
+        "dir",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_E_06",
+      "q": "Remove file:",
+      "opts": [
+        "remove",
+        "delete",
+        "rm",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_E_07",
+      "q": "OS handles:",
+      "opts": [
+        "files",
+        "loops",
+        "vars",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "OS_M_01",
+      "q": "What is output?\nimport os\nprint(isinstance(os.getcwd(),str))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_M_02",
+      "q": "Path join via:",
+      "opts": [
+        "os.path.join",
+        "join",
+        "path",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_M_03",
+      "q": "What is output?\nimport os\nprint(hasattr(os,'listdir'))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_M_04",
+      "q": "Env vars via:",
+      "opts": [
+        "os.environ",
+        "env",
+        "vars",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_M_05",
+      "q": "Rename via:",
+      "opts": [
+        "rename",
+        "move",
+        "shift",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_M_06",
+      "q": "What is output?\nimport os\nprint(type(os.getcwd()))",
+      "opts": [
+        "str",
+        "int",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_M_07",
+      "q": "Exists check:",
+      "opts": [
+        "os.path.exists",
+        "exists",
+        "check",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "OS_H_01",
+      "q": "What is output?\nimport os\nprint(os.name in ['posix','nt'])",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_H_02",
+      "q": "Walk directory via:",
+      "opts": [
+        "os.walk",
+        "walk",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_H_03",
+      "q": "Absolute path via:",
+      "opts": [
+        "abspath",
+        "path",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "os interacts system",
+        "not",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_H_05",
+      "q": "Remove dir via:",
+      "opts": [
+        "rmdir",
+        "delete",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "OS_H_06",
+      "q": "Process id via:",
+      "opts": [
+        "getpid",
+        "pid",
+        "id",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

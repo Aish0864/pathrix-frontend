@@ -1,0 +1,158 @@
+{
+  "easy": [
+    {
+      "id": "VAR_E_01",
+      "q": "What is a variable in Python?",
+      "opts": [
+        "A container for storing data",
+        "A fixed value",
+        "A keyword",
+        "A function"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "VAR_E_02",
+      "q": "Which symbol is used to assign a value to a variable?",
+      "opts": ["=", "==", ":", "->"],
+      "ans": 0
+    },
+    {
+      "id": "VAR_E_03",
+      "q": "Which of the following is a valid variable name?",
+      "opts": ["my_var", "2var", "var-name", "class"],
+      "ans": 0
+    },
+    {
+      "id": "VAR_E_04",
+      "q": "Python variables are created when:",
+      "opts": [
+        "Declared explicitly",
+        "Assigned a value",
+        "Imported",
+        "Compiled"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "VAR_E_05",
+      "q": "Which of the following is invalid?",
+      "opts": ["_var", "var1", "1var", "var_name"],
+      "ans": 2
+    },
+    {
+      "id": "VAR_E_06",
+      "q": "What will x = 5 store?",
+      "opts": ["String '5'", "Integer 5", "Boolean", "Nothing"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_E_07",
+      "q": "Variable names can contain:",
+      "opts": [
+        "Spaces",
+        "Special symbols like @",
+        "Letters, digits, underscore",
+        "Only numbers"
+      ],
+      "ans": 2
+    }
+  ],
+  "medium": [
+    {
+      "id": "VAR_M_01",
+      "q": "What is the output?\nx = 10\ny = x\nx = 20\nprint(y)",
+      "opts": ["10", "20", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "VAR_M_02",
+      "q": "Which is correct about variable reassignment?",
+      "opts": [
+        "Not allowed",
+        "Allowed anytime",
+        "Only once",
+        "Only for strings"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "VAR_M_03",
+      "q": "What happens here?\nx = '5'\ny = 5\nprint(x == y)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_M_04",
+      "q": "Which statement is correct?",
+      "opts": [
+        "Variables must be declared before use",
+        "Python infers variable type automatically",
+        "Variables cannot change type",
+        "Variables must be integers"
+      ],
+      "ans": 1
+    },
+    {
+      "id": "VAR_M_05",
+      "q": "What will be the type of x?\nx = 5.0",
+      "opts": ["int", "float", "str", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_M_06",
+      "q": "What is the output?\na = 3\nb = 4\na, b = b, a\nprint(a, b)",
+      "opts": ["3 4", "4 3", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_M_07",
+      "q": "Which is valid multiple assignment?",
+      "opts": ["x = y = 10", "x == y = 10", "x := 10", "int x = 10"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "VAR_H_01",
+      "q": "What is the output?\nx = [1,2,3]\ny = x\nx.append(4)\nprint(y)",
+      "opts": ["[1,2,3]", "[1,2,3,4]", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_H_02",
+      "q": "What concept explains shared reference in variables?",
+      "opts": ["Copying", "Aliasing", "Casting", "Binding"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_H_03",
+      "q": "What is the output?\nx = 10\ndef func():\n    x = 20\nfunc()\nprint(x)",
+      "opts": ["10", "20", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "VAR_H_04",
+      "q": "Which keyword modifies a global variable inside a function?",
+      "opts": ["global", "nonlocal", "var", "static"],
+      "ans": 0
+    },
+    {
+      "id": "VAR_H_05",
+      "q": "What is the output?\nx = 5\ndef f():\n    global x\n    x = 10\nf()\nprint(x)",
+      "opts": ["5", "10", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "VAR_H_06",
+      "q": "Which statement is true about Python variables?",
+      "opts": [
+        "They store actual values always",
+        "They store references to objects",
+        "They are memory addresses only",
+        "They cannot be reassigned"
+      ],
+      "ans": 1
+    }
+  ]
+}

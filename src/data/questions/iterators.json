@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "IT_E_01",
+      "q": "Iterator is:",
+      "opts": [
+        "object with next()",
+        "loop",
+        "class",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_E_02",
+      "q": "Method to get iterator:",
+      "opts": [
+        "iter()",
+        "next()",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_E_03",
+      "q": "Method to get next item:",
+      "opts": [
+        "next()",
+        "iter()",
+        "get()",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_E_04",
+      "q": "Iterator stops via:",
+      "opts": [
+        "StopIteration",
+        "Error",
+        "None",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_E_05",
+      "q": "Lists are iterable?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_E_06",
+      "q": "Iterator stores state?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_E_07",
+      "q": "Iterable vs iterator:",
+      "opts": [
+        "different",
+        "same",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "IT_M_01",
+      "q": "What is output?\nl=[1,2]\nit=iter(l)\nprint(next(it))",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_M_02",
+      "q": "What is output?\nl=[1]\nit=iter(l)\nnext(it)\nnext(it)",
+      "opts": [
+        "Error",
+        "1",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_M_03",
+      "q": "Which is iterator?",
+      "opts": [
+        "file",
+        "list",
+        "int",
+        "str"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_M_04",
+      "q": "What is output?\nfor x in [1,2]: print(x)",
+      "opts": [
+        "1 2",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_M_05",
+      "q": "Iterator protocol needs:",
+      "opts": [
+        "__iter__ & __next__",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_M_06",
+      "q": "What is output?\nit=iter('ab');print(next(it))",
+      "opts": [
+        "a",
+        "b",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_M_07",
+      "q": "StopIteration raised when:",
+      "opts": [
+        "end reached",
+        "start",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "IT_H_01",
+      "q": "Custom iterator requires:",
+      "opts": [
+        "__iter__",
+        "__next__",
+        "both",
+        "none"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "IT_H_02",
+      "q": "What is output?\nclass A:\n def __iter__(self): return self\n def __next__(self): raise StopIteration\na=A();it=iter(a);print(list(it))",
+      "opts": [
+        "[]",
+        "Error",
+        "None",
+        "[None]"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_H_03",
+      "q": "Iterator consumed after use?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_H_04",
+      "q": "What is output?\nit=iter([1,2]);next(it);print(next(it))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "iterator is iterable",
+        "not iterable",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IT_H_06",
+      "q": "for loop uses:",
+      "opts": [
+        "iterator protocol",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "FR_E_01",
+      "q": "Open file for read mode:",
+      "opts": [
+        "'r'",
+        "'w'",
+        "'a'",
+        "'x'"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_E_02",
+      "q": "Function to open file:",
+      "opts": [
+        "open()",
+        "read()",
+        "file()",
+        "load()"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_E_03",
+      "q": "read() returns:",
+      "opts": [
+        "string",
+        "int",
+        "bool",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_E_04",
+      "q": "readline() reads:",
+      "opts": [
+        "one line",
+        "all",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_E_05",
+      "q": "readlines() returns:",
+      "opts": [
+        "list",
+        "string",
+        "int",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_E_06",
+      "q": "File must be:",
+      "opts": [
+        "opened",
+        "closed",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_E_07",
+      "q": "Close file via:",
+      "opts": [
+        "close()",
+        "end()",
+        "stop()",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "FR_M_01",
+      "q": "What is output?\nf=open('t.txt','w');f.write('a');f.close();f=open('t.txt');print(f.read())",
+      "opts": [
+        "a",
+        "Error",
+        "None",
+        ""
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_M_02",
+      "q": "with open() ensures:",
+      "opts": [
+        "auto close",
+        "loop",
+        "error",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_M_03",
+      "q": "What is output?\nf=open('t.txt','w');f.write('ab');f.close();f=open('t.txt');print(len(f.read()))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_M_04",
+      "q": "File pointer via:",
+      "opts": [
+        "tell()",
+        "seek()",
+        "both",
+        "none"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "FR_M_05",
+      "q": "seek() changes:",
+      "opts": [
+        "position",
+        "file",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_M_06",
+      "q": "What is output?\nf=open('t.txt','w');f.write('abc');f.close();f=open('t.txt');f.seek(1);print(f.read())",
+      "opts": [
+        "bc",
+        "abc",
+        "c",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_M_07",
+      "q": "Mode 'rb' means:",
+      "opts": [
+        "read binary",
+        "write binary",
+        "append",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "FR_H_01",
+      "q": "What is output?\nwith open('t.txt','w') as f: f.write('ab')\nwith open('t.txt') as f: print(f.readline())",
+      "opts": [
+        "ab",
+        "a",
+        "b",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_H_02",
+      "q": "Reading large files best via:",
+      "opts": [
+        "iteration",
+        "read all",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_H_03",
+      "q": "What is output?\nf=open('t.txt','w');f.write('a\\nb');f.close();f=open('t.txt');print(len(f.readlines()))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "files buffered",
+        "not buffered",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_H_05",
+      "q": "What is output?\nf=open('t.txt','w');f.write('abc');f.close();f=open('t.txt');f.seek(2);print(f.read())",
+      "opts": [
+        "c",
+        "bc",
+        "abc",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FR_H_06",
+      "q": "EOF reached when:",
+      "opts": [
+        "empty read",
+        "error",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

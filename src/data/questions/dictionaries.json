@@ -1,0 +1,134 @@
+
+{
+  "easy": [
+    {
+      "id": "DC_E_01",
+      "q": "Which structure stores key-value pairs?",
+      "opts": ["list", "tuple", "set", "dictionary"],
+      "ans": 3
+    },
+    {
+      "id": "DC_E_02",
+      "q": "How is a dictionary defined?",
+      "opts": ["[]", "()", "{}", "<>"],
+      "ans": 2
+    },
+    {
+      "id": "DC_E_03",
+      "q": "Keys in dictionary must be:",
+      "opts": ["mutable", "immutable", "numeric only", "string only"],
+      "ans": 1
+    },
+    {
+      "id": "DC_E_04",
+      "q": "Values in dictionary can be:",
+      "opts": ["single type", "multiple types", "only numbers", "only strings"],
+      "ans": 1
+    },
+    {
+      "id": "DC_E_05",
+      "q": "What is len({'a':1,'b':2})?",
+      "opts": ["1", "2", "3", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "DC_E_06",
+      "q": "How to access value?",
+      "opts": ["d.key", "d[key]", "d(key)", "d->key"],
+      "ans": 1
+    },
+    {
+      "id": "DC_E_07",
+      "q": "Dictionary is:",
+      "opts": ["ordered (3.7+)", "unordered always", "indexed", "numeric"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "DC_M_01",
+      "q": "What is output?\nd={'a':1}\nprint(d['a'])",
+      "opts": ["1", "a", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_02",
+      "q": "What is output?\nd={'a':1}\nd['b']=2\nprint(d)",
+      "opts": ["{'a':1,'b':2}", "{'b':2}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_03",
+      "q": "What is output?\nd={'a':1}\nd.update({'b':2})\nprint(d)",
+      "opts": ["{'a':1,'b':2}", "{'b':2}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_04",
+      "q": "What is output?\nd={'a':1,'b':2}\nd.pop('a')\nprint(d)",
+      "opts": ["{'b':2}", "{'a':1}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_05",
+      "q": "Which returns keys?",
+      "opts": ["keys()", "values()", "items()", "get()"],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_06",
+      "q": "What is output?\nd={'a':1}\nprint(d.get('b',0))",
+      "opts": ["0", "Error", "None", "1"],
+      "ans": 0
+    },
+    {
+      "id": "DC_M_07",
+      "q": "Which checks key existence?",
+      "opts": ["in", "has", "exists", "find"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "DC_H_01",
+      "q": "What is output?\nd={'a':1}\nd['a']=2\nprint(d)",
+      "opts": ["{'a':2}", "{'a':1}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_02",
+      "q": "What is output?\nd={'a':1}\nprint('a' in d)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_03",
+      "q": "What is output?\nd={'a':1}\nprint(1 in d)",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "DC_H_04",
+      "q": "What is output?\nd={'a':1}\nprint(d.items())",
+      "opts": ["dict_items([('a',1)])", "[('a',1)]", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_05",
+      "q": "What is output?\nd={'a':1}\nd.clear()\nprint(d)",
+      "opts": ["{}", "{'a':1}", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "DC_H_06",
+      "q": "Keys must be:",
+      "opts": [
+        "hashable",
+        "mutable",
+        "numeric",
+        "ordered"
+      ],
+      "ans": 0
+    }
+  ]
+}

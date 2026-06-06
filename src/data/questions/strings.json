@@ -1,0 +1,134 @@
+
+{
+  "easy": [
+    {
+      "id": "ST_E_01",
+      "q": "Which type stores text?",
+      "opts": ["int", "str", "list", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "ST_E_02",
+      "q": "How to define string?",
+      "opts": ["'text'", "123", "[ ]", "{ }"],
+      "ans": 0
+    },
+    {
+      "id": "ST_E_03",
+      "q": "Strings are:",
+      "opts": ["mutable", "immutable", "numeric", "boolean"],
+      "ans": 1
+    },
+    {
+      "id": "ST_E_04",
+      "q": "What is len('abc')?",
+      "opts": ["2", "3", "4", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "ST_E_05",
+      "q": "Index of first character?",
+      "opts": ["0", "1", "-1", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "ST_E_06",
+      "q": "What is 'a'+'b'?",
+      "opts": ["ab", "a b", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_E_07",
+      "q": "What is 'a'*3?",
+      "opts": ["aaa", "a3", "Error", "None"],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "ST_M_01",
+      "q": "What is output?\ns='abc'\nprint(s[1])",
+      "opts": ["a", "b", "c", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "ST_M_02",
+      "q": "What is output?\ns='abc'\nprint(s[-1])",
+      "opts": ["a", "b", "c", "Error"],
+      "ans": 2
+    },
+    {
+      "id": "ST_M_03",
+      "q": "What is output?\ns='abc'\nprint(s[0:2])",
+      "opts": ["ab", "bc", "a", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "ST_M_04",
+      "q": "Which method converts to uppercase?",
+      "opts": ["upper()", "lower()", "title()", "case()"],
+      "ans": 0
+    },
+    {
+      "id": "ST_M_05",
+      "q": "What is output?\nprint('abc'.upper())",
+      "opts": ["ABC", "abc", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_M_06",
+      "q": "What is output?\nprint('abc'.replace('a','z'))",
+      "opts": ["zbc", "abc", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_M_07",
+      "q": "Strings support:",
+      "opts": ["indexing", "slicing", "iteration", "All"],
+      "ans": 3
+    }
+  ],
+  "hard": [
+    {
+      "id": "ST_H_01",
+      "q": "What is output?\ns='abc'\nprint(s[::-1])",
+      "opts": ["cba", "abc", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_H_02",
+      "q": "What is output?\nprint('hello'[1:4])",
+      "opts": ["ell", "ello", "hel", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "ST_H_03",
+      "q": "What is output?\nprint('abc'.find('b'))",
+      "opts": ["1", "-1", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_H_04",
+      "q": "What is output?\nprint('abc'.count('a'))",
+      "opts": ["1", "0", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_H_05",
+      "q": "What is output?\nprint('abc'.startswith('a'))",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "ST_H_06",
+      "q": "Which is true?",
+      "opts": [
+        "Strings mutable",
+        "Strings immutable",
+        "Strings numeric",
+        "Strings boolean"
+      ],
+      "ans": 1
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "MD_E_01",
+      "q": "Module is:",
+      "opts": [
+        "file",
+        "class",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_E_02",
+      "q": "Import keyword:",
+      "opts": [
+        "import",
+        "include",
+        "use",
+        "load"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_E_03",
+      "q": "Used for:",
+      "opts": [
+        "reuse code",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_E_04",
+      "q": "Built-in module example:",
+      "opts": [
+        "math",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_E_05",
+      "q": "Import all syntax:",
+      "opts": [
+        "from m import *",
+        "import *",
+        "use m",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_E_06",
+      "q": "Alias via:",
+      "opts": [
+        "as",
+        "alias",
+        "rename",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_E_07",
+      "q": "Module executed when:",
+      "opts": [
+        "import",
+        "loop",
+        "none",
+        "var"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "MD_M_01",
+      "q": "What is output?\nimport math\nprint(math.sqrt(4))",
+      "opts": [
+        "2.0",
+        "4",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_M_02",
+      "q": "What is output?\nimport math as m\nprint(m.pi>3)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_M_03",
+      "q": "Which loads module?",
+      "opts": [
+        "import",
+        "load",
+        "use",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_M_04",
+      "q": "__name__ equals __main__ when:",
+      "opts": [
+        "run directly",
+        "imported",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_M_05",
+      "q": "What is output?\nfrom math import sqrt\nprint(sqrt(9))",
+      "opts": [
+        "3.0",
+        "9",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_M_06",
+      "q": "Module search path stored in:",
+      "opts": [
+        "sys.path",
+        "os.path",
+        "math.path",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_M_07",
+      "q": "Reload module via:",
+      "opts": [
+        "importlib.reload",
+        "reload",
+        "load",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "MD_H_01",
+      "q": "What is output?\nimport math\nprint(hasattr(math,'pi'))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_H_02",
+      "q": "__all__ controls:",
+      "opts": [
+        "export names",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_H_03",
+      "q": "What is output?\nimport math\nprint(math.__name__)",
+      "opts": [
+        "math",
+        "Error",
+        "None",
+        "__main__"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_H_04",
+      "q": "Circular imports cause:",
+      "opts": [
+        "issues",
+        "none",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "modules cached",
+        "not cached",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "MD_H_06",
+      "q": "Module compiled to:",
+      "opts": [
+        "pyc",
+        "exe",
+        "dll",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

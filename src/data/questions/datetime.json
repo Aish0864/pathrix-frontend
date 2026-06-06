@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "DT_E_01",
+      "q": "Datetime module used for:",
+      "opts": [
+        "date/time",
+        "math",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_02",
+      "q": "Import via:",
+      "opts": [
+        "import datetime",
+        "use datetime",
+        "load",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_03",
+      "q": "Current date via:",
+      "opts": [
+        "date.today",
+        "now",
+        "time",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_04",
+      "q": "Current time via:",
+      "opts": [
+        "datetime.now",
+        "time",
+        "clock",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_05",
+      "q": "Date object type:",
+      "opts": [
+        "date",
+        "time",
+        "int",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_06",
+      "q": "Time object type:",
+      "opts": [
+        "time",
+        "date",
+        "int",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_07",
+      "q": "Datetime combines:",
+      "opts": [
+        "date+time",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "DT_M_01",
+      "q": "What is output?\nfrom datetime import date\nprint(isinstance(date.today().year,int))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_02",
+      "q": "Format date via:",
+      "opts": [
+        "strftime",
+        "format",
+        "print",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_03",
+      "q": "Parse date via:",
+      "opts": [
+        "strptime",
+        "parse",
+        "read",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_04",
+      "q": "What is output?\nfrom datetime import datetime\nprint(datetime.now().year>2000)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_05",
+      "q": "Timedelta used for:",
+      "opts": [
+        "difference",
+        "sum",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_06",
+      "q": "What is output?\nfrom datetime import timedelta\nprint((timedelta(days=1)).days)",
+      "opts": [
+        "1",
+        "0",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_07",
+      "q": "ISO format via:",
+      "opts": [
+        "isoformat",
+        "format",
+        "print",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "DT_H_01",
+      "q": "What is output?\nfrom datetime import datetime\nprint(type(datetime.now()).__name__)",
+      "opts": [
+        "datetime",
+        "date",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_H_02",
+      "q": "Timezone support via:",
+      "opts": [
+        "tzinfo",
+        "zone",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_H_03",
+      "q": "What is output?\nfrom datetime import date\nprint(date(2020,1,1).weekday()>=0)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "immutable",
+        "mutable",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_H_05",
+      "q": "Date arithmetic uses:",
+      "opts": [
+        "timedelta",
+        "math",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "DT_H_06",
+      "q": "UTC time via:",
+      "opts": [
+        "utcnow",
+        "now",
+        "time",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

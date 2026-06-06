@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "IN_E_01",
+      "q": "Inheritance means:",
+      "opts": [
+        "reuse",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_E_02",
+      "q": "Child class inherits from:",
+      "opts": [
+        "parent",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_E_03",
+      "q": "Syntax uses:",
+      "opts": [
+        "class B(A):",
+        "class B",
+        "def",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_E_04",
+      "q": "Parent class also called:",
+      "opts": [
+        "base",
+        "child",
+        "object",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_E_05",
+      "q": "Inheritance supports:",
+      "opts": [
+        "reuse",
+        "error",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_E_06",
+      "q": "Child can override?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_E_07",
+      "q": "Multiple inheritance allowed?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "IN_M_01",
+      "q": "What is output?\nclass A:\n def f(self):return 1\nclass B(A): pass\nprint(B().f())",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_M_02",
+      "q": "Method overriding means:",
+      "opts": [
+        "same name",
+        "diff name",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_M_03",
+      "q": "What is output?\nclass A:\n def f(self):return 1\nclass B(A):\n def f(self):return 2\nprint(B().f())",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_M_04",
+      "q": "super() used for:",
+      "opts": [
+        "parent access",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_M_05",
+      "q": "What is output?\nclass A:\n def f(self):return 1\nclass B(A):\n def f(self): return super().f()\nprint(B().f())",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_M_06",
+      "q": "Inheritance types include:",
+      "opts": [
+        "single",
+        "multiple",
+        "multilevel",
+        "all"
+      ],
+      "ans": 3
+    },
+    {
+      "id": "IN_M_07",
+      "q": "Child gets:",
+      "opts": [
+        "methods+data",
+        "loop",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "IN_H_01",
+      "q": "MRO defines:",
+      "opts": [
+        "method order",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_H_02",
+      "q": "What is output?\nclass A:\n def f(self):return 'A'\nclass B(A): pass\nclass C(A): pass\nclass D(B,C): pass\nprint(D().f())",
+      "opts": [
+        "A",
+        "Error",
+        "None",
+        "B"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_H_03",
+      "q": "Diamond problem solved by:",
+      "opts": [
+        "MRO",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_H_04",
+      "q": "What is output?\nclass A:\n x=1\nclass B(A): pass\nclass C(B): pass\nprint(C().x)",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "child can override",
+        "cannot",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "IN_H_06",
+      "q": "super() follows:",
+      "opts": [
+        "MRO",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "easy": [
+    {
+      "id": "DT_E_01",
+      "q": "Which data type is used to store text?",
+      "opts": ["int", "str", "float", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "DT_E_02",
+      "q": "What is the type of 10?",
+      "opts": ["float", "str", "int", "bool"],
+      "ans": 2
+    },
+    {
+      "id": "DT_E_03",
+      "q": "What is the type of 10.5?",
+      "opts": ["int", "float", "str", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "DT_E_04",
+      "q": "Which represents a boolean value?",
+      "opts": ["True", "10", "'True'", "0"],
+      "ans": 0
+    },
+    {
+      "id": "DT_E_05",
+      "q": "Which type is immutable?",
+      "opts": ["list", "dict", "str", "set"],
+      "ans": 2
+    },
+    {
+      "id": "DT_E_06",
+      "q": "What is type('Hello')?",
+      "opts": ["int", "str", "float", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "DT_E_07",
+      "q": "Which type is used for decimal numbers?",
+      "opts": ["int", "float", "str", "bool"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "DT_M_01",
+      "q": "What is the output?\nprint(type(5))",
+      "opts": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_02",
+      "q": "What is the type of True?",
+      "opts": ["int", "bool", "str", "NoneType"],
+      "ans": 1
+    },
+    {
+      "id": "DT_M_03",
+      "q": "Which conversion is valid?",
+      "opts": ["int('10')", "int('abc')", "float('xyz')", "str(5.5.5)"],
+      "ans": 0
+    },
+    {
+      "id": "DT_M_04",
+      "q": "What is output?\nprint(type(5.0))",
+      "opts": ["int", "float", "str", "bool"],
+      "ans": 1
+    },
+    {
+      "id": "DT_M_05",
+      "q": "What is type(None)?",
+      "opts": ["None", "NoneType", "null", "void"],
+      "ans": 1
+    },
+    {
+      "id": "DT_M_06",
+      "q": "Which function converts to string?",
+      "opts": ["int()", "str()", "float()", "bool()"],
+      "ans": 1
+    },
+    {
+      "id": "DT_M_07",
+      "q": "Which type can hold multiple data types?",
+      "opts": ["int", "str", "list", "bool"],
+      "ans": 2
+    }
+  ],
+  "hard": [
+    {
+      "id": "DT_H_01",
+      "q": "What is output?\nprint(bool(0))",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "DT_H_02",
+      "q": "What is output?\nprint(bool(''))",
+      "opts": ["True", "False", "Error", "None"],
+      "ans": 1
+    },
+    {
+      "id": "DT_H_03",
+      "q": "What is output?\nprint(type([]))",
+      "opts": ["list", "<class 'list'>", "array", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "DT_H_04",
+      "q": "Which is truthy?",
+      "opts": ["0", "''", "[]", "[0]"],
+      "ans": 3
+    },
+    {
+      "id": "DT_H_05",
+      "q": "What is output?\nprint(int(True))",
+      "opts": ["0", "1", "True", "Error"],
+      "ans": 1
+    },
+    {
+      "id": "DT_H_06",
+      "q": "What is output?\nprint(type({}))",
+      "opts": ["dict", "<class 'dict'>", "set", "Error"],
+      "ans": 1
+    }
+  ]
+}

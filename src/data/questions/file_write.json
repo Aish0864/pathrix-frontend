@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "FW_E_01",
+      "q": "Write mode:",
+      "opts": [
+        "'w'",
+        "'r'",
+        "'a'",
+        "'x'"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_E_02",
+      "q": "Append mode:",
+      "opts": [
+        "'a'",
+        "'w'",
+        "'r'",
+        "'x'"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_E_03",
+      "q": "write() returns:",
+      "opts": [
+        "chars written",
+        "string",
+        "none",
+        "error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_E_04",
+      "q": "Write overwrites?",
+      "opts": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_E_05",
+      "q": "Append adds to:",
+      "opts": [
+        "end",
+        "start",
+        "middle",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_E_06",
+      "q": "File must be:",
+      "opts": [
+        "opened",
+        "closed",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_E_07",
+      "q": "Close via:",
+      "opts": [
+        "close()",
+        "end()",
+        "stop()",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "FW_M_01",
+      "q": "What is output?\nf=open('t.txt','w');f.write('a');f.close();f=open('t.txt');print(f.read())",
+      "opts": [
+        "a",
+        "Error",
+        "None",
+        ""
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_M_02",
+      "q": "What is output?\nf=open('t.txt','w');f.write('a');f.close();f=open('t.txt','a');f.write('b');f.close();f=open('t.txt');print(f.read())",
+      "opts": [
+        "ab",
+        "a",
+        "b",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_M_03",
+      "q": "with open() ensures:",
+      "opts": [
+        "auto close",
+        "loop",
+        "error",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_M_04",
+      "q": "What is output?\nf=open('t.txt','w');f.write('abc');f.close();f=open('t.txt');print(len(f.read()))",
+      "opts": [
+        "3",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_M_05",
+      "q": "Mode 'wb' means:",
+      "opts": [
+        "write binary",
+        "read binary",
+        "append",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_M_06",
+      "q": "write multiple lines via:",
+      "opts": [
+        "writelines",
+        "write",
+        "read",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_M_07",
+      "q": "Which is true?",
+      "opts": [
+        "write returns count",
+        "write returns None",
+        "error",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "FW_H_01",
+      "q": "What is output?\nwith open('t.txt','w') as f: f.write('a')\nwith open('t.txt') as f: print(f.read())",
+      "opts": [
+        "a",
+        "Error",
+        "None",
+        ""
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_H_02",
+      "q": "Overwrite happens in:",
+      "opts": [
+        "w mode",
+        "a mode",
+        "r mode",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_H_03",
+      "q": "What is output?\nf=open('t.txt','w');f.write('a\\nb');f.close();f=open('t.txt');print(len(f.readlines()))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_H_04",
+      "q": "Buffer flush via:",
+      "opts": [
+        "flush()",
+        "close()",
+        "both",
+        "none"
+      ],
+      "ans": 2
+    },
+    {
+      "id": "FW_H_05",
+      "q": "What is output?\nf=open('t.txt','w');f.write('abc');f.close();f=open('t.txt');f.seek(1);print(f.read())",
+      "opts": [
+        "bc",
+        "abc",
+        "c",
+        "Error"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "FW_H_06",
+      "q": "Binary write mode:",
+      "opts": [
+        "wb",
+        "rb",
+        "ab",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

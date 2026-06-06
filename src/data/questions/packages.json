@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "PK_E_01",
+      "q": "Package is:",
+      "opts": [
+        "collection of modules",
+        "single file",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_E_02",
+      "q": "Package folder contains:",
+      "opts": [
+        "__init__.py",
+        "main.py",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_E_03",
+      "q": "Used for:",
+      "opts": [
+        "organization",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_E_04",
+      "q": "Import package syntax:",
+      "opts": [
+        "import pkg",
+        "use pkg",
+        "load pkg",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_E_05",
+      "q": "Submodules accessed via:",
+      "opts": [
+        "dot",
+        "->",
+        "[]",
+        "()"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_E_06",
+      "q": "Package improves:",
+      "opts": [
+        "structure",
+        "loop",
+        "speed",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_E_07",
+      "q": "Package is directory?",
+      "opts": [
+        "Yes",
+        "No",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "PK_M_01",
+      "q": "What is output?\nimport math\nprint(math.__package__)",
+      "opts": [
+        "'' or None",
+        "math",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_M_02",
+      "q": "Relative import uses:",
+      "opts": [
+        ".",
+        "..",
+        "...",
+        "all"
+      ],
+      "ans": 3
+    },
+    {
+      "id": "PK_M_03",
+      "q": "What is output?\nimport math as m\nprint(m.__name__)",
+      "opts": [
+        "math",
+        "m",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_M_04",
+      "q": "Which file initializes package?",
+      "opts": [
+        "__init__.py",
+        "main.py",
+        "app.py",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_M_05",
+      "q": "Namespace packages may lack:",
+      "opts": [
+        "__init__.py",
+        "modules",
+        "files",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_M_06",
+      "q": "Access submodule:",
+      "opts": [
+        "pkg.mod",
+        "mod.pkg",
+        "pkg->mod",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_M_07",
+      "q": "Which is true?",
+      "opts": [
+        "packages group modules",
+        "modules group packages",
+        "same",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "PK_H_01",
+      "q": "What is output?\nimport sys\nprint(len(sys.path)>0)",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_H_02",
+      "q": "Absolute import means:",
+      "opts": [
+        "full path",
+        "relative path",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_H_03",
+      "q": "What is output?\nimport math\nprint(hasattr(math,'sqrt'))",
+      "opts": [
+        "True",
+        "False",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_H_04",
+      "q": "Circular imports cause:",
+      "opts": [
+        "issues",
+        "none",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_H_05",
+      "q": "Which is true?",
+      "opts": [
+        "packages cached",
+        "not cached",
+        "loop",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "PK_H_06",
+      "q": "Search order uses:",
+      "opts": [
+        "sys.path",
+        "os.path",
+        "pkg.path",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

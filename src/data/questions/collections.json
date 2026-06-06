@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "CLL_E_01",
+      "q": "collections module provides:",
+      "opts": [
+        "special containers",
+        "math",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_E_02",
+      "q": "Counter counts:",
+      "opts": [
+        "elements",
+        "loops",
+        "vars",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_E_03",
+      "q": "Defaultdict default value:",
+      "opts": [
+        "factory",
+        "None",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_E_04",
+      "q": "Namedtuple creates:",
+      "opts": [
+        "tuple subclass",
+        "list",
+        "dict",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_E_05",
+      "q": "Deque is:",
+      "opts": [
+        "double-ended queue",
+        "list",
+        "dict",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_E_06",
+      "q": "OrderedDict keeps:",
+      "opts": [
+        "order",
+        "random",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_E_07",
+      "q": "Collections improves:",
+      "opts": [
+        "data handling",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "CLL_M_01",
+      "q": "What is output?\nfrom collections import Counter\nprint(Counter('aab')['a'])",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_M_02",
+      "q": "Defaultdict avoids:",
+      "opts": [
+        "KeyError",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_M_03",
+      "q": "What is output?\nfrom collections import deque\nd=deque([1,2]);d.appendleft(0);print(list(d))",
+      "opts": [
+        "[0,1,2]",
+        "[1,2,0]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_M_04",
+      "q": "What is output?\nfrom collections import namedtuple\nP=namedtuple('P','x');p=P(1);print(p.x)",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_M_05",
+      "q": "Counter most_common returns:",
+      "opts": [
+        "list",
+        "dict",
+        "int",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_M_06",
+      "q": "What is output?\nfrom collections import defaultdict\nd=defaultdict(int);print(d['x'])",
+      "opts": [
+        "0",
+        "Error",
+        "None",
+        "1"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_M_07",
+      "q": "Deque pop from left via:",
+      "opts": [
+        "popleft",
+        "pop",
+        "left",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "CLL_H_01",
+      "q": "What is output?\nfrom collections import Counter\nprint(sum(Counter('ab').values()))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_H_02",
+      "q": "Which is true?",
+      "opts": [
+        "deque fast ends",
+        "list faster",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_H_03",
+      "q": "What is output?\nfrom collections import OrderedDict\nd=OrderedDict();d['a']=1;d['b']=2;print(list(d.keys()))",
+      "opts": [
+        "['a','b']",
+        "['b','a']",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_H_04",
+      "q": "Defaultdict factory runs when:",
+      "opts": [
+        "missing key",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_H_05",
+      "q": "Namedtuple fields accessed via:",
+      "opts": [
+        "attributes",
+        "index only",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "CLL_H_06",
+      "q": "Counter subtract does:",
+      "opts": [
+        "decrease counts",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

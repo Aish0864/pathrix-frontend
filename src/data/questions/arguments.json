@@ -1,0 +1,139 @@
+
+{
+  "easy": [
+    {
+      "id": "AR_E_01",
+      "q": "Arguments are:",
+      "opts": ["values passed to function", "function names", "loops", "variables"],
+      "ans": 0
+    },
+    {
+      "id": "AR_E_02",
+      "q": "How many arguments can a function take?",
+      "opts": ["one", "two", "fixed", "multiple"],
+      "ans": 3
+    },
+    {
+      "id": "AR_E_03",
+      "q": "Which is positional argument?",
+      "opts": ["f(x=1)", "f(1)", "f()", "f(x,y=2)"],
+      "ans": 1
+    },
+    {
+      "id": "AR_E_04",
+      "q": "Keyword arguments use:",
+      "opts": ["=", ":", "->", "()"],
+      "ans": 0
+    },
+    {
+      "id": "AR_E_05",
+      "q": "Arguments passed during:",
+      "opts": ["definition", "call", "compile", "import"],
+      "ans": 1
+    },
+    {
+      "id": "AR_E_06",
+      "q": "Which is correct?",
+      "opts": ["f(1,2)", "f=1,2", "f[1,2]", "f{1,2}"],
+      "ans": 0
+    },
+    {
+      "id": "AR_E_07",
+      "q": "Arguments are inputs to:",
+      "opts": ["loop", "function", "class", "variable"],
+      "ans": 1
+    }
+  ],
+  "medium": [
+    {
+      "id": "AR_M_01",
+      "q": "What is output?\ndef f(x): return x\nprint(f(2))",
+      "opts": ["2", "None", "Error", "f"],
+      "ans": 0
+    },
+    {
+      "id": "AR_M_02",
+      "q": "What is output?\ndef f(x,y): return x+y\nprint(f(2,3))",
+      "opts": ["5", "23", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "AR_M_03",
+      "q": "What is output?\ndef f(x,y=2): return x+y\nprint(f(3))",
+      "opts": ["5", "3", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "AR_M_04",
+      "q": "What is output?\ndef f(x,y): return x+y\nprint(f(y=2,x=3))",
+      "opts": ["5", "Error", "3", "None"],
+      "ans": 0
+    },
+    {
+      "id": "AR_M_05",
+      "q": "Which is correct?",
+      "opts": [
+        "positional before keyword",
+        "keyword before positional",
+        "only keyword",
+        "only positional"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "AR_M_06",
+      "q": "What is output?\ndef f(*x): return len(x)\nprint(f(1,2,3))",
+      "opts": ["3", "1", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "AR_M_07",
+      "q": "*args collects:",
+      "opts": ["tuple", "list", "dict", "int"],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "AR_H_01",
+      "q": "What is output?\ndef f(**x): return x\nprint(f(a=1,b=2))",
+      "opts": ["{'a':1,'b':2}", "Error", "None", "{1,2}"],
+      "ans": 0
+    },
+    {
+      "id": "AR_H_02",
+      "q": "What is output?\ndef f(x,y=2): return x*y\nprint(f(3,4))",
+      "opts": ["12", "6", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "AR_H_03",
+      "q": "What is output?\ndef f(x,y=2): return x*y\nprint(f(3))",
+      "opts": ["6", "3", "Error", "None"],
+      "ans": 0
+    },
+    {
+      "id": "AR_H_04",
+      "q": "What is output?\ndef f(*x): return x[1]\nprint(f(1,2,3))",
+      "opts": ["2", "1", "3", "Error"],
+      "ans": 0
+    },
+    {
+      "id": "AR_H_05",
+      "q": "**kwargs collects:",
+      "opts": ["tuple", "list", "dict", "int"],
+      "ans": 2
+    },
+    {
+      "id": "AR_H_06",
+      "q": "Which is true?",
+      "opts": [
+        "*args before **kwargs",
+        "**kwargs before *args",
+        "only one allowed",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}

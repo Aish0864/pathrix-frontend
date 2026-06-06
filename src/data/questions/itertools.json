@@ -1,0 +1,228 @@
+{
+  "easy": [
+    {
+      "id": "ITR_E_01",
+      "q": "itertools module provides:",
+      "opts": [
+        "iterator tools",
+        "math",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_E_02",
+      "q": "Import via:",
+      "opts": [
+        "import itertools",
+        "use itertools",
+        "load",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_E_03",
+      "q": "count() generates:",
+      "opts": [
+        "infinite seq",
+        "finite",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_E_04",
+      "q": "cycle() repeats:",
+      "opts": [
+        "elements",
+        "none",
+        "loop",
+        "var"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_E_05",
+      "q": "chain() combines:",
+      "opts": [
+        "iterables",
+        "vars",
+        "loops",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_E_06",
+      "q": "product() gives:",
+      "opts": [
+        "cartesian",
+        "sum",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_E_07",
+      "q": "permutations returns:",
+      "opts": [
+        "arrangements",
+        "sets",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    }
+  ],
+  "medium": [
+    {
+      "id": "ITR_M_01",
+      "q": "What is output?\nfrom itertools import count\nc=count(1);print(next(c))",
+      "opts": [
+        "1",
+        "0",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_M_02",
+      "q": "What is output?\nfrom itertools import cycle\nc=cycle([1]);print(next(c))",
+      "opts": [
+        "1",
+        "Error",
+        "None",
+        "0"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_M_03",
+      "q": "What is output?\nfrom itertools import chain\nprint(list(chain([1],[2])))",
+      "opts": [
+        "[1,2]",
+        "[2,1]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_M_04",
+      "q": "Combinations vs permutations:",
+      "opts": [
+        "order matters in perm",
+        "same",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_M_05",
+      "q": "What is output?\nfrom itertools import product\nprint(list(product([1],[2])))",
+      "opts": [
+        "[(1,2)]",
+        "[1,2]",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_M_06",
+      "q": "groupby groups by:",
+      "opts": [
+        "key",
+        "value",
+        "index",
+        "none"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_M_07",
+      "q": "islice used for:",
+      "opts": [
+        "slice iter",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ],
+  "hard": [
+    {
+      "id": "ITR_H_01",
+      "q": "What is output?\nfrom itertools import permutations\nprint(len(list(permutations([1,2]))))",
+      "opts": [
+        "2",
+        "1",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_H_02",
+      "q": "What is output?\nfrom itertools import combinations\nprint(len(list(combinations([1,2],2))))",
+      "opts": [
+        "1",
+        "2",
+        "Error",
+        "None"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_H_03",
+      "q": "Infinite iterators include:",
+      "opts": [
+        "count",
+        "cycle",
+        "repeat",
+        "all"
+      ],
+      "ans": 3
+    },
+    {
+      "id": "ITR_H_04",
+      "q": "Which is true?",
+      "opts": [
+        "lazy eval",
+        "eager",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_H_05",
+      "q": "repeat() returns:",
+      "opts": [
+        "same elem",
+        "seq",
+        "none",
+        "loop"
+      ],
+      "ans": 0
+    },
+    {
+      "id": "ITR_H_06",
+      "q": "accumulate does:",
+      "opts": [
+        "cumulative sum",
+        "loop",
+        "var",
+        "none"
+      ],
+      "ans": 0
+    }
+  ]
+}
