@@ -16,6 +16,7 @@ export default function DashboardPage() {
   const [level, setLevel] = useState(
     localStorage.getItem("diagnostic_level") || "Beginner",
   );
+  const [quizAccuracy, setQuizAccuracy] = useState("—");
   const [sessionId, setSessionId] = useState(
     localStorage.getItem("session_id"),
   );
@@ -32,6 +33,8 @@ export default function DashboardPage() {
         }
         const recRes = await getRecommendation(sid);
         setRec(recRes.data);
+        if (recRes.data.ability_score)
+          setQuizAccuracy(`${Math.round(recRes.data.ability_score * 100)}%`);
         localStorage.setItem(
           "cognitive_load",
           recRes.data.cognitive_load || "low",
@@ -43,8 +46,14 @@ export default function DashboardPage() {
         // localStorage.setItem("diagnostic_level", lvl);
         const masteryRes = await getOverallMastery(studentId);
         const pct = masteryRes.data.overall_mastery || 0;
+        const abilityPct = (recRes.data.ability_score || 0) * 100;
+        const combinedPct = Math.max(pct, abilityPct);
         const lvl =
-          pct >= 70 ? "Advanced" : pct >= 40 ? "Intermediate" : "Beginner";
+          combinedPct >= 70
+            ? "Advanced"
+            : combinedPct >= 40
+              ? "Intermediate"
+              : "Beginner";
         localStorage.setItem("diagnostic_level", lvl);
         setLevel(lvl);
         const studentMasteryRes = await fetch(
@@ -108,7 +117,7 @@ export default function DashboardPage() {
         />
         <StatCard
           label="Quiz Accuracy"
-          value="—"
+          value={quizAccuracy}
           accent="#EF9F27"
           bg="#FAEEDA"
         />
