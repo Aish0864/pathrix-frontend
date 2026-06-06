@@ -33,6 +33,7 @@ export default function DashboardPage() {
         }
         const recRes = await getRecommendation(sid);
         setRec(recRes.data);
+        localStorage.setItem("ability_score", recRes.data.ability_score || "0");
         if (recRes.data.ability_score)
           setQuizAccuracy(`${Math.round(recRes.data.ability_score * 100)}%`);
         localStorage.setItem(

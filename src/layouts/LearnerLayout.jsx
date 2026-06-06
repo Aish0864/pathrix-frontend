@@ -20,14 +20,35 @@ export default function LearnerLayout() {
   const [level, setLevel] = useState("...");
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // useEffect(() => {
+  //   if (studentId) {
+  //     getOverallMastery(studentId)
+  //       .then((res) => {
+  //         const pct = res.data.overall_mastery || 0;
+  //         setMastery(Math.round(pct));
+  //         const lvl =
+  //           pct >= 70 ? "Advanced" : pct >= 40 ? "Intermediate" : "Beginner";
+  //         setLevel(lvl);
+  //         localStorage.setItem("diagnostic_level", lvl);
+  //       })
+  //       .catch(() => {});
+  //   }
+  // }, []);
   useEffect(() => {
     if (studentId) {
       getOverallMastery(studentId)
         .then((res) => {
           const pct = res.data.overall_mastery || 0;
           setMastery(Math.round(pct));
+          const abilityPct =
+            parseFloat(localStorage.getItem("ability_score") || "0") * 100;
+          const combinedPct = Math.max(pct, abilityPct);
           const lvl =
-            pct >= 70 ? "Advanced" : pct >= 40 ? "Intermediate" : "Beginner";
+            combinedPct >= 70
+              ? "Advanced"
+              : combinedPct >= 40
+                ? "Intermediate"
+                : "Beginner";
           setLevel(lvl);
           localStorage.setItem("diagnostic_level", lvl);
         })
