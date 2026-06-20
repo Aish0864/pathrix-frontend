@@ -1,70 +1,217 @@
-# Getting Started with Create React App
+# Pathrix — Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> React frontend for Pathrix, an AI-based adaptive learning system that personalises Python concept recommendations using Deep Knowledge Tracing and Reinforcement Learning.
 
-## Available Scripts
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-brightgreen)](https://pathrix-frontend.vercel.app)
+[![Backend Repo](https://img.shields.io/badge/Backend-GitHub-black)](https://github.com/Aish0864/pathrix-api)
+[![React](https://img.shields.io/badge/React-18-blue)](https://reactjs.org)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black)](https://vercel.com)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌐 **https://pathrix-frontend.vercel.app**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> Demo access available on request.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What is Pathrix?
 
-### `npm run build`
+Pathrix is an adaptive learning platform for Python programming. It identifies what each learner already knows and recommends the next concept to study — skipping content they have mastered and prioritising gaps in their knowledge.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Every recommendation includes a natural language explanation of why that concept was chosen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👉 **Full project details:** https://github.com/Aish0864/pathrix-api
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Screens
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Student Flow
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Screen | Description |
+|---|---|
+| Landing Page | Introduction to Pathrix with login/register options |
+| Register | Create new account |
+| Login | Student authentication |
+| Diagnostic Quiz | Initial assessment to determine learner profile |
+| Dashboard | Progress overview — mastery %, concepts studied, profile level, cognitive load |
+| Learning Page | Current recommended concept with WHY explanation and confidence indicator |
+| Quiz Page | Concept-specific questions to test mastery |
+| Result Page | Quiz result with mastery update and next recommendation preview |
+| Path View | Visual overview of learning path across 54 Python concepts |
+| Profile Page | Account details and learning statistics |
+| Completion Page | Session completion summary |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Admin Flow
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Screen | Description |
+|---|---|
+| Admin Login | Separate admin authentication |
+| Admin Dashboard | Overview of all registered students and activity |
+| Student Detail | Individual student mastery, interactions, cognitive load |
+| A/B Comparison | Compare adaptive vs fixed path performance |
+| Pipeline View | Live AI pipeline status — DKT model + RL agent health |
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+| Component | Technology |
+|---|---|
+| Framework | React 18 |
+| Routing | React Router |
+| HTTP Client | Fetch API |
+| Styling | CSS Modules |
+| Deployment | Vercel |
+| Build Tool | Create React App |
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Structure
 
-### Analyzing the Bundle Size
+```
+pathrix-frontend/
+├── public/
+│   └── index.html
+├── src/
+│   ├── pages/
+│   │   ├── LandingPage.jsx
+│   │   ├── RegisterPage.jsx
+│   │   ├── LoginPage.jsx
+│   │   ├── learner/
+│   │   │   ├── DashboardPage.jsx
+│   │   │   ├── LearnPage.jsx
+│   │   │   ├── QuizPage.jsx
+│   │   │   ├── ResultPage.jsx
+│   │   │   ├── PathPage.jsx
+│   │   │   ├── ProfilePage.jsx
+│   │   │   └── CompletionPage.jsx
+│   │   └── admin/
+│   │       ├── AdminLoginPage.jsx
+│   │       ├── DashboardTab.jsx
+│   │       ├── StudentDetailTab.jsx
+│   │       ├── ABComparisonTab.jsx
+│   │       └── PipelineTab.jsx
+│   ├── layouts/
+│   │   ├── LearnerLayout.jsx
+│   │   └── AdminLayout.jsx
+│   ├── App.jsx
+│   └── index.js
+└── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## How to Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Prerequisites
+```
+Node.js 18+
+```
 
-### Advanced Configuration
+### Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+# Clone the repo
+git clone https://github.com/Aish0864/pathrix-frontend
+cd pathrix-frontend
 
-### Deployment
+# Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Start development server
+npm start
+```
 
-### `npm run build` fails to minify
+Frontend runs at `http://localhost:3000`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Environment Variables
+
+Create a `.env` file in the root:
+
+```
+REACT_APP_API_URL=http://localhost:8000
+```
+
+For production:
+```
+REACT_APP_API_URL=https://pathrix-api.onrender.com
+```
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Learner Flow
+
+```
+Register / Login
+      │
+      ▼
+Diagnostic Quiz
+      │
+      ▼
+Profile Assigned
+(Beginner / Intermediate / Advanced)
+      │
+      ▼
+Dashboard
+      │
+      ▼
+Learning Page → Quiz Page → Result Page
+      │
+      ▼
+Repeat until session complete
+      │
+      ▼
+Completion Page
+```
+
+---
+
+## Key Features
+
+- **Adaptive recommendations** — next concept chosen by Q-Learning agent
+- **Natural language explanations** — every recommendation includes a WHY string
+- **Cognitive load indicator** — displayed on dashboard and learning page
+- **Profile-based personalisation** — beginner, intermediate, advanced profiles
+- **Mastery tracking** — real-time mastery updates after every quiz
+- **Admin dashboard** — full student management and AI pipeline monitoring
+- **A/B comparison view** — adaptive vs fixed path performance
+
+---
+
+## Deployment Notes
+
+Deployed on Vercel with automatic deployments from main branch.
+
+Set these environment variables in Vercel:
+```
+CI=false
+REACT_APP_API_URL=https://pathrix-api.onrender.com
+```
+
+---
+
+## Research Context
+
+MTech Computer Engineering Dissertation
+Vidyalankar Institute of Technology, Wadala, Maharashtra, India
+
+**Author:** Aishwarya Nalawade
+**Guide:** Dr. Kavita P. Shirsat
+
+---
+
+## Related
+
+- 📦 Backend repo: https://github.com/Aish0864/pathrix-api
+- 🌐 Live system: https://pathrix-frontend.vercel.app
+- 📄 API docs: https://pathrix-api.onrender.com/docs
